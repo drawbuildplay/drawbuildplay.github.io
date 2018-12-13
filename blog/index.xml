@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on DrawBuildPlay</title>
+    <link>http://localhost:1313/blog/</link>
+    <description>Recent content in Blogs on DrawBuildPlay</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Mar 2016 13:22:41 -0500</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to blog</title>
+      <link>http://localhost:1313/blog/2016/03/01/how-to-blog/</link>
+      <pubDate>Tue, 01 Mar 2016 13:22:41 -0500</pubDate>
+      
+      <guid>http://localhost:1313/blog/2016/03/01/how-to-blog/</guid>
+      <description>BLOGGING 101 Lets start with the basics of Blogging. The word blog originally comes from the term
+web-log (noun): a log (or diary) on the web (internet).  These days, blogging is more about having a regularly updated web site, written in an informal or conversational style. What you are currently reading is a blog.
+You may have heard of WordPress, which is one of the most popular blogging platforms available.</description>
+    </item>
+    
+    <item>
+      <title>Why your business needs a CDN</title>
+      <link>http://localhost:1313/blog/2016/02/22/why-your-business-needs-a-cdn/</link>
+      <pubDate>Mon, 22 Feb 2016 13:22:41 -0500</pubDate>
+      
+      <guid>http://localhost:1313/blog/2016/02/22/why-your-business-needs-a-cdn/</guid>
+      <description>For example, lets say your website was hosted on a server in Atlanta GA. Then, whenever your customer requested your website that did not use a CDN, the request would always come to your server in Atlanta. Local customers may have a decent experience because they are local, but requests from customers on the west coast would have to travel the span of the US. Even worse for global customers.</description>
+    </item>
+    
+    <item>
+      <title>Setting up DNS</title>
+      <link>http://localhost:1313/blog/2016/02/09/setting-up-dns/</link>
+      <pubDate>Tue, 09 Feb 2016 13:22:41 -0500</pubDate>
+      
+      <guid>http://localhost:1313/blog/2016/02/09/setting-up-dns/</guid>
+      <description>You should be familiar with the Address Bar in your browser. It looks something like this:
+  Address Bar   When your users go to a URL such as &amp;ldquo;www.drawbuildplay.com&amp;rdquo;, the request will go to a DNS server which routes the request to the correct place where your website is hosted. Think of it like regular mail you send through the post office. You send a letter marked with the recipients address.</description>
+    </item>
+    
+    <item>
+      <title>Introduction to SEO</title>
+      <link>http://localhost:1313/blog/2016/02/08/introduction-to-seo/</link>
+      <pubDate>Mon, 08 Feb 2016 13:22:41 -0500</pubDate>
+      
+      <guid>http://localhost:1313/blog/2016/02/08/introduction-to-seo/</guid>
+      <description>Welcome to my first post on SEO.
+Many customers feel that if you build a beautiful website, then customers will come pouring through the door.
+In reality, there is more to website design than just pretty fonts, colors, and great imagery.
+Users who search for certain keywords on Google will likely find your website only if you rank high on Google, giving you the opportunity to convert those users into potential paying customers.</description>
+    </item>
+    
+  </channel>
+</rss>

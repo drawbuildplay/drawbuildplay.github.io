@@ -1,0 +1,313 @@
+<!DOCTYPE HTML>
+
+<html lang='en'>
+	<head>
+		<title>Setting up DNS &middot; DrawBuildPlay</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href='/assets/css/main.css' />
+		
+		<noscript><link rel="stylesheet" href='/assets/css/noscript.css' /></noscript>
+	</head>
+
+	<body lang='en' class="is-loading">
+
+		
+			<div id="wrapper">
+
+                
+<header id="header">
+    <a href='/' class="logo">DrawBuildPlay</a>
+</header>
+
+                
+<nav id="nav">
+    <ul class="links">
+        <li class="">
+            <a href='/'>DrawBuildPlay</a>
+        </li>
+        
+            
+                <li class="active">
+                    <a title="business-growth" href="http://localhost:1313/categories/business-growth/">business-growth</a>
+                </li>
+            
+        
+
+        
+        <li><a href='/#footer'>Contact</a></li>
+        
+        
+    </ul>
+
+    
+    <ul class="icons">
+        
+        <li><a href="https://twitter.com/drawbuildplay" class="icon fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+        
+        
+        <li><a href="https://www.facebook.com/DrawBuildPlay/" class="icon fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="https://www.pinterest.com/drawbuildplay/" class="icon fa-pinterest" target="_blank"><span class="label">Pinterest</span></a></li>
+        
+    </ul>
+    
+</nav>
+
+
+				
+					<div id="main">
+
+						
+                        <section class="post">
+                            <header class="major">
+                                
+                                <span class="date">February 9, 2016</span>
+                                
+                                <h1>Setting up DNS</h1>
+                                <p>You just created a beautiful website.  Great!  Now you need customers to be able to get to it.  This is where the Domain Name Server (DNS) comes in.</p>
+                            </header>
+                            
+                            <div class="image main"><img src="/images/dns.png" alt="" /></div>
+                            
+                            
+
+<p>You should be familiar with the Address Bar in your browser.  It looks something like this:</p>
+
+
+<figure>
+    
+        <img src="/images/dns_addressbar.png" />
+    
+    
+    <figcaption>
+        <h4>Address Bar</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<p>When your users go to a URL such as &ldquo;www.drawbuildplay.com&rdquo;, the request will go to a DNS server which routes the request to the correct place where your website is hosted.  Think of it like regular mail you send through the post office.  You send a letter marked with the recipients address.  The postal service will pick up the mail and route it to the appropriate place, going through a bunch of intermediary postal locations, until it reaches the destination.</p>
+
+<p>DNS works pretty much the same way. You have an address which is mapped to a destination where your website resides.  These destinations are typically mapped with either what is called an &ldquo;A&rdquo; record, or a &ldquo;CNAME&rdquo; record.</p>
+
+<h2 id="a-records">A RECORDS</h2>
+
+<p>An A Record maps a fully qualified domain name (FQDN) to an IP Address.  This is useful if you want your domain name to point to the IP address of your load balancer or directly to your server.</p>
+
+<h2 id="cname-records">CNAME RECORDS</h2>
+
+<p>CNAME records stand for &ldquo;Canonical Name Record&rdquo;.  It is used to indicated that the domain name is an alias for another domain name.  Here are drawbuildplay, we often create CNAME records to point to (alias) another domain owned by squarespace.</p>
+
+<p>Another time we often use CNAME records is when integrating with a CDN (Content Delivery Network).  It allows us to point our domain to another domain owned by a CDN provider such as Akamai, Fastly, or Amazon CloudFront.</p>
+
+<h2 id="txt-records">TXT RECORDS</h2>
+
+<p>TXT Records are used to add arbitrary text records to your DNS settings.  These are often used to verify ownership of a domain, or to signal certain information to humans or other machines that rely on it.</p>
+
+<h2 id="mx-records">MX RECORDS</h2>
+
+<p>MX Records are used to route where Email messages should be sent.  If you are using Google&rsquo;s Gmail to power your email hosting, then this is where you add the appropriate MX records pointing to Googles&rsquo; Servers.</p>
+
+<h2 id="ns-records">NS RECORDS</h2>
+
+<p>NS Records are used to tell your Domain Name Server where your settings are kept.  A lot of users will have their Name Server at the same provider as where they purchased their domain.  Others however, control their DNS settings from somewhere else like Rackspace or Google Domains.  This is where they would set the NS record at the provider where the domain ownership exists.</p>
+
+
+<figure>
+    
+        <img src="/images/dns_records.png" />
+    
+    
+    <figcaption>
+        <h4>Sample DNS Record Fields</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<h2 id="dns-providers">DNS PROVIDERS</h2>
+
+<p>There are many DNS providers out there.  One of the more popular ones is GoDaddy.  I personally am not a fan of their interface, and I tend to manage my domains through either Rackspace or Google Domains.  You can still buy your domain from any of your preferred providers, and then set up your NS records to point to Rackspace or Google Domains.</p>
+
+<p>Once you have purchased your domain, and set up the appropriate Name Server records, you will be able to create your A records or CNAME records and point it at your website.</p>
+
+<h2 id="dns-propogation">DNS PROPOGATION</h2>
+
+<p>Any changes you make to your DNS settings takes time to propogate around the world.  In other words, your DNS settings are copied to hundreds of servers around the world so that the internet runs a little bit faster.  These copies have what is called a TTL (Time to live).  When that TTL expires, the server with the copy looks for a fresh copy of the data in case anything changed.  So whenever you make a change, it could take up to 24 hours before all your users can see your change.  When playing around with DNS, I suggest setting it to 5 minutes a few days before you need the changes applied.</p>
+
+
+                            
+
+
+
+
+
+<section id="sharing">
+    <ul class="icons alt">
+        <li>
+          <a href="#" class="button primary disabled">Share</a>
+        </li>
+        
+        <li><a href="https://twitter.com/intent/tweet/?text=Setting%20up%20DNS:&amp;url=http%3a%2f%2flocalhost%3a1313%2fblog%2f2016%2f02%2f09%2fsetting-up-dns%2f" class="icon alt fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+        
+        
+        <li><a href="http://www.facebook.com/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fblog%2f2016%2f02%2f09%2fsetting-up-dns%2f" target="_blank" class="icon alt fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="https://pinterest.com/pin/create/button/?url=http%3a%2f%2flocalhost%3a1313%2fblog%2f2016%2f02%2f09%2fsetting-up-dns%2f&amp;media=http%3A%2F%2Fsharingbuttons.io&amp;description=Setting%20up%20DNS%2c%20by%20DrawBuildPlay%0aYou%20just%20created%20a%20beautiful%20website.%20%20Great%21%20%20Now%20you%20need%20customers%20to%20be%20able%20to%20get%20to%20it.%20%20This%20is%20where%20the%20Domain%20Name%20Server%20%28DNS%29%20comes%20in.%0a%0ahttp%3a%2f%2flocalhost%3a1313%2fblog%2f2016%2f02%2f09%2fsetting-up-dns%2f%0a" class="icon alt fa-pinterest" target="_blank"><span class="label">Pinterest</span></a></li>
+        
+    </ul>
+</section>
+
+
+
+                            
+                            
+                            <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "hugo-massively" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+                            
+                        </section>
+                    
+                        
+
+
+
+
+
+<section id="sharing">
+    <ul class="icons alt">
+        <li>
+          <a href="#" class="button primary disabled">Share</a>
+        </li>
+        
+        <li><a href="https://twitter.com/intent/tweet/?text=Setting%20up%20DNS:&amp;url=http%3a%2f%2flocalhost%3a1313%2fblog%2f2016%2f02%2f09%2fsetting-up-dns%2f" class="icon alt fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+        
+        
+        <li><a href="http://www.facebook.com/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fblog%2f2016%2f02%2f09%2fsetting-up-dns%2f" target="_blank" class="icon alt fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="https://pinterest.com/pin/create/button/?url=http%3a%2f%2flocalhost%3a1313%2fblog%2f2016%2f02%2f09%2fsetting-up-dns%2f&amp;media=http%3A%2F%2Fsharingbuttons.io&amp;description=Setting%20up%20DNS%2c%20by%20DrawBuildPlay%0aYou%20just%20created%20a%20beautiful%20website.%20%20Great%21%20%20Now%20you%20need%20customers%20to%20be%20able%20to%20get%20to%20it.%20%20This%20is%20where%20the%20Domain%20Name%20Server%20%28DNS%29%20comes%20in.%0a%0ahttp%3a%2f%2flocalhost%3a1313%2fblog%2f2016%2f02%2f09%2fsetting-up-dns%2f%0a" class="icon alt fa-pinterest" target="_blank"><span class="label">Pinterest</span></a></li>
+        
+    </ul>
+</section>
+
+
+
+					</div>
+
+                    
+
+<footer id="footer">
+    
+    <section>
+        <figure>
+            <img src="/images/logo.png" title="DrawBuildPlay logo" >
+        </figure>
+    </section>
+    
+    <section class="split contact">
+        
+        <section class="alt">
+            <h3>Address</h3>
+            <p>
+                
+                     Atlanta, GA 30024
+                
+            </p>
+        </section>
+        
+        
+        
+        <section>
+            <h3>Email</h3>
+            <p><a href="mailto:sales@drawbuildplay.com">sales@drawbuildplay.com</a></p>
+        </section>
+        
+        
+        <section>
+            <h3>Social</h3>
+            <ul class="icons alt">
+                
+                <li><a href="https://twitter.com/drawbuildplay" class="icon alt fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+                
+                
+                <li><a href="https://www.facebook.com/DrawBuildPlay/" class="icon alt fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li><a href="https://www.pinterest.com/drawbuildplay/" class="icon alt fa-pinterest" target="_blank"><span class="label">Pinterest</span></a></li>
+                
+            </ul>
+        </section>
+        
+    </section>
+</footer>
+
+                    
+<div id="copyright">
+    <ul><li>&copy; DrawBuildPlay</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li><li>Hugo Port: <a href="https://curtistimson.co.uk">curttimson</a></li></ul>
+</div>
+
+
+            </div>
+            
+            
+<script src='/assets/js/jquery.min.js'></script>
+<script src='/assets/js/jquery.scrollex.min.js'></script>
+<script src='/assets/js/jquery.scrolly.min.js'></script>
+<script src='/assets/js/skel.min.js'></script>
+<script src='/assets/js/util.js'></script>
+<script src='/assets/js/main.js'></script>
+
+
+	</body>
+</html>
