@@ -13,6 +13,11 @@
   </url>
   
   <url>
+    <loc>http://localhost:1313/blog/2016/02/16/introduction-to-ssl/</loc>
+    <lastmod>2016-02-16T13:38:48-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://localhost:1313/blog/2016/02/09/setting-up-dns/</loc>
     <lastmod>2016-02-09T13:22:41-05:00</lastmod>
   </url>

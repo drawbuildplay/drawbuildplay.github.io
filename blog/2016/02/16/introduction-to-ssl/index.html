@@ -1,0 +1,303 @@
+<!DOCTYPE HTML>
+
+<html lang='en'>
+	<head>
+		<title>Introduction to SSL &middot; DrawBuildPlay</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href='/assets/css/main.css' />
+		
+		<noscript><link rel="stylesheet" href='/assets/css/noscript.css' /></noscript>
+	</head>
+
+	<body lang='en' class="is-loading">
+
+		
+			<div id="wrapper">
+
+                
+<header id="header">
+    <a href='/' class="logo">DrawBuildPlay</a>
+</header>
+
+                
+<nav id="nav">
+    <ul class="links">
+        <li class="">
+            <a href='/'>DrawBuildPlay</a>
+        </li>
+        
+            
+                <li class="active">
+                    <a title="business-growth" href="http://localhost:1313/categories/business-growth/">business-growth</a>
+                </li>
+            
+        
+
+        
+        <li><a href='/#footer'>Contact</a></li>
+        
+        
+    </ul>
+
+    
+    <ul class="icons">
+        
+        <li><a href="https://twitter.com/drawbuildplay" class="icon fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+        
+        
+        <li><a href="https://www.facebook.com/DrawBuildPlay/" class="icon fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="https://www.pinterest.com/drawbuildplay/" class="icon fa-pinterest" target="_blank"><span class="label">Pinterest</span></a></li>
+        
+    </ul>
+    
+</nav>
+
+
+				
+					<div id="main">
+
+						
+                        <section class="post">
+                            <header class="major">
+                                
+                                <span class="date">February 16, 2016</span>
+                                
+                                <h1>Introduction to SSL</h1>
+                                <p>The infamous question.  What is SSL?  Or, more importantly, why should I care about it?</p>
+                            </header>
+                            
+                            <div class="image main"><img src="/images/ssl.png" alt="" /></div>
+                            
+                            
+
+<p>SSL stands for Secure Socket Layer. It&rsquo;s actually a deprecated technology, now replaced by a newer acronym - TLS.  TLS stands for Transport Layer Security.</p>
+
+<p>Okay, enough of this gobbledygook!  What do all these fancy words mean?!?!  In a nutshell, its all about security on the internet.</p>
+
+<p>When you visit your bank website, or these days even Facebook and Google, you will see a lock icon next to the URL in the address bar.</p>
+
+
+<figure>
+    
+        <img src="/images/ssl_lock.png" />
+    
+    
+    <figcaption>
+        <h4>The Green Lock</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<h2 id="the-green-lock">THE GREEN LOCK</h2>
+
+<p>The green lock, and the &ldquo;https://&rdquo; next to it means that the communication between your device (computer/iphone/ipad etc) is secure.  No one else can read the data that is sent and received, and no one can modify it.</p>
+
+<p>This is important if you care about your privacy.  Obviously you don&rsquo;t want anyone else seeing your communication with your bank.  Your passwords should stay secret.  Your account numbers should stay secret.  Likewise your emails, and pretty much anything you do online should stay secret between you and the site you are visiting.</p>
+
+<p>When you see a green lock, what you are being told is that this domain has been verified with the owner and that your communication will be encrypted between you and this domain.  This means that if someone intercepts your traffic (also called a &ldquo;man in the middle&rdquo; attack), they cant see what is being transmitted, and they cannot change anything since all the data is encrypted.</p>
+
+<h2 id="how-does-the-encryption-work">HOW DOES THE ENCRYPTION WORK?</h2>
+
+<p>First, the owner of the domain has to apply for a Secure Certificate.  There are a few Certificate Authorities (CA) that are approved CA&rsquo;s by the browser makers such as Google (Chrome) or Microsoft (Internet Explorer/Edge).  A Certificate Authority is a trusted authority who can issue Certificates.</p>
+
+<p>For the lock to be displayed, the owner of the website must first request a secure certificate from one of these approved CA&rsquo;s.</p>
+
+<p>Next, the CA will verify the domain ownership rights with the owner.  In a later blog post I will talk about the different ways the domain verification can occur (DV, EV, OV verification types).  Once the domain ownership has been verified, a certificate is issued.</p>
+
+<p>The certificate consists of a public key and a private key.  The private key always remains in possession of the certificate owner and is never shared.  The public key is made available to all.  When you submit a request to the website (eg to your bank site), the data from your device is first encrypted with the bank websites&rsquo; public key.  Only the bank is able to decrypt your request using their private key.  The bank will then respond to your request with the response encrypted using your public key.  Only you have a private key which can decrypt their response.</p>
+
+<p><em>For the more technical folks out there - I am simplifying this process and will go into deeper technical details in a later post.</em></p>
+
+<h2 id="but-how-good-is-the-encryption">BUT HOW GOOD IS THE ENCRYPTION?</h2>
+
+<p>Like all good encryption, eventually computers are powerful enough to break it.  That is why current TLS certificates are recommended to have public/private keys that are at least 2048 bits long.  The more bits, the harder it is to hack.  But the trade-off is it also requires faster and more powerful computers to use.</p>
+
+<h2 id="why-should-i-care">WHY SHOULD I CARE?</h2>
+
+<p>Okay, back to the question, why should I care about all this?  Well, for starters, search engines are starting to look at HTTPS support as a ranking factor, where supporting HTTPS on your website will increase your rank.</p>
+
+<p>Also, why risk compromising your customers data?  Even if your website doesn&rsquo;t deal with sensitive data, everyone still has a right to privacy.</p>
+
+<h2 id="isn-t-it-expensive">ISN&rsquo;T IT EXPENSIVE?</h2>
+
+<p>Traditionally, SSL/TLS Certificates have been expensive.  Recently, cheap to free alternatives have emerged.  One option is LetsEncrypt who offer free certificates.  Another option is CloudFlare.  CloudFlare will give you a free SNI certificate along with their CDN services.</p>
+
+<p>Source: <a href="https://en.wikipedia.org/wiki/Transport_Layer_Security">https://en.wikipedia.org/wiki/Transport_Layer_Security</a></p>
+
+
+                            
+
+
+
+
+
+<section id="sharing">
+    <ul class="icons alt">
+        <li>
+          <a href="#" class="button primary disabled">Share</a>
+        </li>
+        
+        <li><a href="https://twitter.com/intent/tweet/?text=Introduction%20to%20SSL:&amp;url=http%3a%2f%2flocalhost%3a1313%2fblog%2f2016%2f02%2f16%2fintroduction-to-ssl%2f" class="icon alt fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+        
+        
+        <li><a href="http://www.facebook.com/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fblog%2f2016%2f02%2f16%2fintroduction-to-ssl%2f" target="_blank" class="icon alt fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="https://pinterest.com/pin/create/button/?url=http%3a%2f%2flocalhost%3a1313%2fblog%2f2016%2f02%2f16%2fintroduction-to-ssl%2f&amp;media=http%3A%2F%2Fsharingbuttons.io&amp;description=Introduction%20to%20SSL%2c%20by%20DrawBuildPlay%0aThe%20infamous%20question.%20%20What%20is%20SSL%3f%20%20Or%2c%20more%20importantly%2c%20why%20should%20I%20care%20about%20it%3f%0a%0ahttp%3a%2f%2flocalhost%3a1313%2fblog%2f2016%2f02%2f16%2fintroduction-to-ssl%2f%0a" class="icon alt fa-pinterest" target="_blank"><span class="label">Pinterest</span></a></li>
+        
+    </ul>
+</section>
+
+
+
+                            
+                            
+                            <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "hugo-massively" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+                            
+                        </section>
+                    
+                        
+
+
+
+
+
+<section id="sharing">
+    <ul class="icons alt">
+        <li>
+          <a href="#" class="button primary disabled">Share</a>
+        </li>
+        
+        <li><a href="https://twitter.com/intent/tweet/?text=Introduction%20to%20SSL:&amp;url=http%3a%2f%2flocalhost%3a1313%2fblog%2f2016%2f02%2f16%2fintroduction-to-ssl%2f" class="icon alt fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+        
+        
+        <li><a href="http://www.facebook.com/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fblog%2f2016%2f02%2f16%2fintroduction-to-ssl%2f" target="_blank" class="icon alt fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="https://pinterest.com/pin/create/button/?url=http%3a%2f%2flocalhost%3a1313%2fblog%2f2016%2f02%2f16%2fintroduction-to-ssl%2f&amp;media=http%3A%2F%2Fsharingbuttons.io&amp;description=Introduction%20to%20SSL%2c%20by%20DrawBuildPlay%0aThe%20infamous%20question.%20%20What%20is%20SSL%3f%20%20Or%2c%20more%20importantly%2c%20why%20should%20I%20care%20about%20it%3f%0a%0ahttp%3a%2f%2flocalhost%3a1313%2fblog%2f2016%2f02%2f16%2fintroduction-to-ssl%2f%0a" class="icon alt fa-pinterest" target="_blank"><span class="label">Pinterest</span></a></li>
+        
+    </ul>
+</section>
+
+
+
+					</div>
+
+                    
+
+<footer id="footer">
+    
+    <section>
+        <figure>
+            <img src="/images/logo.png" title="DrawBuildPlay logo" >
+        </figure>
+    </section>
+    
+    <section class="split contact">
+        
+        <section class="alt">
+            <h3>Address</h3>
+            <p>
+                
+                     Atlanta, GA 30024
+                
+            </p>
+        </section>
+        
+        
+        
+        <section>
+            <h3>Email</h3>
+            <p><a href="mailto:sales@drawbuildplay.com">sales@drawbuildplay.com</a></p>
+        </section>
+        
+        
+        <section>
+            <h3>Social</h3>
+            <ul class="icons alt">
+                
+                <li><a href="https://twitter.com/drawbuildplay" class="icon alt fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+                
+                
+                <li><a href="https://www.facebook.com/DrawBuildPlay/" class="icon alt fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li><a href="https://www.pinterest.com/drawbuildplay/" class="icon alt fa-pinterest" target="_blank"><span class="label">Pinterest</span></a></li>
+                
+            </ul>
+        </section>
+        
+    </section>
+</footer>
+
+                    
+<div id="copyright">
+    <ul><li>&copy; DrawBuildPlay</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li><li>Hugo Port: <a href="https://curtistimson.co.uk">curttimson</a></li></ul>
+</div>
+
+
+            </div>
+            
+            
+<script src='/assets/js/jquery.min.js'></script>
+<script src='/assets/js/jquery.scrollex.min.js'></script>
+<script src='/assets/js/jquery.scrolly.min.js'></script>
+<script src='/assets/js/skel.min.js'></script>
+<script src='/assets/js/util.js'></script>
+<script src='/assets/js/main.js'></script>
+
+
+	</body>
+</html>

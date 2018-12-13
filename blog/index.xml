@@ -32,6 +32,17 @@ You may have heard of WordPress, which is one of the most popular blogging platf
     </item>
     
     <item>
+      <title>Introduction to SSL</title>
+      <link>http://localhost:1313/blog/2016/02/16/introduction-to-ssl/</link>
+      <pubDate>Tue, 16 Feb 2016 13:38:48 -0500</pubDate>
+      
+      <guid>http://localhost:1313/blog/2016/02/16/introduction-to-ssl/</guid>
+      <description>SSL stands for Secure Socket Layer. It&amp;rsquo;s actually a deprecated technology, now replaced by a newer acronym - TLS. TLS stands for Transport Layer Security.
+Okay, enough of this gobbledygook! What do all these fancy words mean?!?! In a nutshell, its all about security on the internet.
+When you visit your bank website, or these days even Facebook and Google, you will see a lock icon next to the URL in the address bar.</description>
+    </item>
+    
+    <item>
       <title>Setting up DNS</title>
       <link>http://localhost:1313/blog/2016/02/09/setting-up-dns/</link>
       <pubDate>Tue, 09 Feb 2016 13:22:41 -0500</pubDate>
