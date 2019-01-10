@@ -19,6 +19,18 @@ if (!doNotTrack) {
 </script>
 <script async src='https://www.google-analytics.com/analytics.js'></script>
 
+
+		<script>
+		
+
+		var trackOutboundLink = function(url) {
+		   ga('send', 'event', 'outbound', 'click', url, {
+		     'transport': 'beacon',
+		     'hitCallback': function(){document.location = url;}
+		   });
+		}
+		</script>
+
 		<meta property="og:title" content="Introduction to SEO" />
 <meta property="og:description" content="Search Engine Optimization (also known as SEO) is the art form of optimizing your website for targeted keywords so that you rank as high as possible on search engines such as Google." />
 <meta property="og:type" content="article" />
@@ -78,7 +90,7 @@ if (!doNotTrack) {
         
 
         
-        <li><a href='/#footer'>Contact</a></li>
+        <li><a href='/#about'>My Story</a></li>
         
         
     </ul>
@@ -275,7 +287,7 @@ Social Media such as Facebook and Twitter are providing more signals to Google a
                     
 
 <footer id="footer">
-    <section class="split contact">
+    <section class="split contact" id="about">
         <section>
             <figure>
                 <img src="/images/footer.jpg"  width="100%" alt="DrawBuildPlay - Amit Gandhi" title="DrawBuildPlay - Amit Gandhi" >
@@ -288,20 +300,22 @@ Social Media such as Facebook and Twitter are providing more signals to Google a
         <section>
             <div class="field">
                 <label>MY STORY</label>
-                <p>Atlanta based designer, with a passion for Home Improvement DIY, Web Design, and Photography. I love to design and watch my ideas come to life.</p>
+                <p>I am an Atlanta based designer, with a passion for Home Improvement DIY, Web Design, and Photography. I love to design and watch my ideas come to life. Through this blog, I share many of the DIY projects I have completed in my home.</p>
             </div>
         </section>
         
 
         <section>
             <form action="https://drawbuildplay.us7.list-manage.com/subscribe/post?u=12399181fb539534b4cf8657c&amp;id=c386eb80b2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                <div id="mc_embed_signup_scroll" class="field">
-                    <label for="mce-EMAIL">Subscribe to our mailing list</label>
-                    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-                </div>
-                
-                <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                    <input type="text" name="b_12399181fb539534b4cf8657c_c386eb80b2" tabindex="-1" value="">
+                <div class="fields">
+                    <div id="mc_embed_signup_scroll" class="field">
+                        <label for="mce-EMAIL">Subscribe to our mailing list</label>
+                        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                    </div>
+                    
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                        <input type="text" name="b_12399181fb539534b4cf8657c_c386eb80b2" tabindex="-1" value="">
+                    </div>
                 </div>
                 <ul class="actions">
                     <li><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></li>
