@@ -350,8 +350,20 @@ if (!doNotTrack) {
 <script src='/assets/js/skel.min.js'></script>
 <script src='/assets/js/util.js'></script>
 <script src='/assets/js/main.js'></script>
-<script async defer src="//assets.pinterest.com/js/pinit.js"></script>
+<script async defer src="//assets.pinterest.com/js/pinit.js" data-pin-hover="true"></script>
 
+<script>
+	(function($) {
+
+	  var allPanels = $('.accordion').hide();
+	    
+	  $('.panelShare').hover(function() {
+	    allPanels.slideDown();
+	    return false;
+	  });
+
+	})(jQuery);
+</script>
 
     </body>
 </html>

@@ -4466,6 +4466,16 @@ input, select, textarea {
 
 		}
 
+/* Collapse Accordian */
+
+/* Style the accordion panel. Note: hidden by default */
+.blah {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
 /* Nav Panel */
 
 	#navPanelToggle {

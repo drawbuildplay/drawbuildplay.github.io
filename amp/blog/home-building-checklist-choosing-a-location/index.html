@@ -203,11 +203,11 @@ if (!doNotTrack) {
 
 
 
-<section id="sharing">
+<section id="sharing" class="panelShare">
     <div class="box">
         <ul class="icons alt">
            <li>
-              <span class="button primary disabled">Sharing</span>
+              <span class="button primary" id="btnShare">Bookmark/Share this post</span>
             </li>
             
                 
@@ -218,19 +218,23 @@ if (!doNotTrack) {
             
             <li><a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.drawbuildplay.com%2fblog%2fhome-building-checklist-choosing-a-location%2f" target="_blank" class="icon alt fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
             
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
         </ul>
+                
+        
+        <div class="accordion" id="pinView">
+            <figure>
+                <img style="max-width: 280px; height: auto;" alt="Home Building Checklist - Choosing a Location" src="https://www.drawbuildplay.com/blog/home-building-checklist-choosing-a-location/images/home-building-location.png">
+                <figcaption>
+                    <h4>
+                        Home Building Checklist - Choosing a Location
+                    </h4>
+                </figcaption>
+            </figure>   
+        </div>
+        
+
     </div>
+
 </section>
 
 
@@ -368,7 +372,19 @@ if (!doNotTrack) {
 <script src='/assets/js/skel.min.js'></script>
 <script src='/assets/js/util.js'></script>
 <script src='/assets/js/main.js'></script>
-<script async defer src="//assets.pinterest.com/js/pinit.js"></script>
+<script async defer src="//assets.pinterest.com/js/pinit.js" data-pin-hover="true"></script>
 
+<script>
+	(function($) {
+
+	  var allPanels = $('.accordion').hide();
+	    
+	  $('.panelShare').hover(function() {
+	    allPanels.slideDown();
+	    return false;
+	  });
+
+	})(jQuery);
+</script>
 	</body>
 </html>
