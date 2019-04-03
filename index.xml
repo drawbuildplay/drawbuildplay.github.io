@@ -6,10 +6,19 @@
     <description>Recent content on DrawBuildPlay</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Apr 2019 00:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 03 Apr 2019 00:00:00 -0400</lastBuildDate>
     
 	<atom:link href="https://www.drawbuildplay.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Tech for your home</title>
+      <link>https://www.drawbuildplay.com/blog/tech-for-your-home/</link>
+      <pubDate>Wed, 03 Apr 2019 00:00:00 -0400</pubDate>
+      
+      <guid>https://www.drawbuildplay.com/blog/tech-for-your-home/</guid>
+      <description>As we start to jump into tech gadgets for the home, one of the first decisions we need to make is if we want to take advantage of a specific ecosystem (Apple vs Google vs Amazon), or try to keep our options open as the major tech companies fight it over. My preference has been to try to stay as universal as possible, while choosing the best tech out there for its purpose.</description>
+    </item>
     
     <item>
       <title>DIY Outlet In Drawer</title>
