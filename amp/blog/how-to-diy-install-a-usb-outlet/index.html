@@ -23,7 +23,7 @@ if (!doNotTrack) {
 		<script>
 		
 
-		$(function() {
+		(function() {
 		  $("a.tracked").click(function(e) {
 		    if (!ga.q) {
 		      var url = $(this).attr("href");
@@ -127,7 +127,7 @@ if (!doNotTrack) {
         
 
         
-        <li><a href='/#about'>Contact</a></li>
+        <li><a href='/#about'>My Story</a></li>
         
         
     </ul>
@@ -162,7 +162,7 @@ if (!doNotTrack) {
                                 <div class="image main">
                                     
                                      
-                                    <img alt="How to install a USB Outlet" src="/uploads/USB-Outlet-With-Wire_hu73d39ba645baf92b592a1177165b375c_873291_1200x0_resize_q75_box.jpg">
+                                    <img alt="How to install a USB Outlet" src="/uploads/USB-Outlet-With-Wire_hu73d39ba645baf92b592a1177165b375c_873291_1200x0_resize_q75_box.jpg" data-pin-nopin="true">
                                 </div>
                             
 
@@ -179,6 +179,19 @@ if (!doNotTrack) {
                                      (adsbygoogle = window.adsbygoogle || []).push({});
                                 </script>
                             </p>
+
+                            
+                            <div class="box">
+                                <ul class="icons alt">
+                                        <li>
+                                            <a href="https://www.pinterest.com/pin/create/button/" data-pin-do="buttonPin" data-pin-custom="true" data-pin-media="/uploads/DIY USB Outlet.png" data-pin-description="Easy DIY Install for a USB Outlet to make charging your devices easier #usb #usb-outlet">
+                                                <span class="button primary" id="btnShare">Pin This Now</span>
+                                            </a>
+                                        </li>
+                                </ul>
+
+                            </div>
+                            
 
                             
 
@@ -268,7 +281,7 @@ if (!doNotTrack) {
 
 
 <figure>
-	<img style="max-width: 100%; height: auto;" alt="How to install a USB Outlet" src="/uploads/USB-Outlet_hu471f20327f66fbd90883c586f19f4070_751808_600x0_resize_q75_box.JPG" width="600" height="400">
+	<img style="max-width: 100%; height: auto;" alt="How to install a USB Outlet" src="/uploads/USB-Outlet_hu471f20327f66fbd90883c586f19f4070_751808_600x0_resize_q75_box.JPG" width="600" height="400" data-pin-nopin="true">
 	<figcaption>
 	<h4>
 	
@@ -562,7 +575,7 @@ if (!doNotTrack) {
          <section>
             <div class="field">
                 <label>Follow DrawBuildPlay on Pinterest</label>
-                <a data-pin-do="embedUser" data-pin-board-width="600" data-pin-scale-height="240" data-pin-scale-width="80" href="https://www.pinterest.com/drawbuildplay/"></a>
+                <a data-pin-do="embedBoard" data-pin-board-width="600" data-pin-scale-height="300" data-pin-scale-width="80" href="https://www.pinterest.com/drawbuildplay/drawbuildplay-blog/"></a>
             </div>
         </section>
 
@@ -576,9 +589,6 @@ if (!doNotTrack) {
         </section>
         
 
-        
-
-       
 
     </section>
 </footer>
@@ -604,8 +614,13 @@ if (!doNotTrack) {
 }
 </script>
 
-            
-<script src='/assets/js/jquery.min.js'></script>
+            <script src='/assets/js/jquery.min.js'></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
 <script src='/assets/js/jquery.scrollex.min.js'></script>
 <script src='/assets/js/jquery.scrolly.min.js'></script>
 <script src='/assets/js/skel.min.js'></script>
@@ -623,8 +638,31 @@ if (!doNotTrack) {
 	    return false;
 	  });
 
+	    setTimeout(function() {
+	      $('#slideOutPanel').modal('show');
+	    }, 10000); 
+	 
 	})(jQuery);
 </script>
+
+
+
+<div class="modal fade" id="slideOutPanel" tabindex="-1" role="dialog" aria-labelledby="slideOutPanel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-slideout" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Keep up to date with our Projects</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>If you are enjoying this article, stay in the loop and follow us on Pinterest!</p>
+        <a data-pin-do="embedUser" data-pin-board-width="400" data-pin-scale-height="240" data-pin-scale-width="80" href="https://www.pinterest.com/drawbuildplay/"></a>
+      </div>
+    </div>
+  </div>
+</div>
 
 
     </body>

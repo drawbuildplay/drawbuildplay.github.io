@@ -23,7 +23,7 @@ if (!doNotTrack) {
 		<script>
 		
 
-		$(function() {
+		(function() {
 		  $("a.tracked").click(function(e) {
 		    if (!ga.q) {
 		      var url = $(this).attr("href");
@@ -129,7 +129,7 @@ if (!doNotTrack) {
         
 
         
-        <li><a href='/#about'>Contact</a></li>
+        <li><a href='/#about'>My Story</a></li>
         
         
     </ul>
@@ -164,7 +164,7 @@ if (!doNotTrack) {
                                 <div class="image main">
                                     
                                      
-                                    <img alt="DIY Outlet In Drawer" src="/uploads/OutletInDrawer_hu45ea8898722a4235c7353df0deb16899_16884250_1200x0_resize_box_2.png">
+                                    <img alt="DIY Outlet In Drawer" src="/uploads/OutletInDrawer_hu45ea8898722a4235c7353df0deb16899_16884250_1200x0_resize_box_2.png" data-pin-nopin="true">
                                 </div>
                             
 
@@ -181,6 +181,19 @@ if (!doNotTrack) {
                                      (adsbygoogle = window.adsbygoogle || []).push({});
                                 </script>
                             </p>
+
+                            
+                            <div class="box">
+                                <ul class="icons alt">
+                                        <li>
+                                            <a href="https://www.pinterest.com/pin/create/button/" data-pin-do="buttonPin" data-pin-custom="true" data-pin-media="/uploads/hair dryer outlet in drawer.png" data-pin-description="Hair Dryer Outlet in Drawer for your bathroom drawer is a genius home hack. This DIY creates you a hidden outlet to hide your hair dryer or hair iron out of view while not in use. #outlet #hiddenoutlet #outletindrawer #bathroom #kitchen #usb #usboutlet #drawer">
+                                                <span class="button primary" id="btnShare">Pin This Now</span>
+                                            </a>
+                                        </li>
+                                </ul>
+
+                            </div>
+                            
 
                             <p>A must have for any bathroom or kitchen is an outlet in the drawer.  It is an incredibly useful DIY to get the hair dryer, or curling/straightening iron off the counter tops, and hidden away in the drawer.  But still usable.  When you need it, just open the drawer, turn on the switch, and start using it.  Likewise, you can install this in your kitchen and then hide your devices in a drawer while they are charging.</p>
 
@@ -480,7 +493,7 @@ if (!doNotTrack) {
          <section>
             <div class="field">
                 <label>Follow DrawBuildPlay on Pinterest</label>
-                <a data-pin-do="embedUser" data-pin-board-width="600" data-pin-scale-height="240" data-pin-scale-width="80" href="https://www.pinterest.com/drawbuildplay/"></a>
+                <a data-pin-do="embedBoard" data-pin-board-width="600" data-pin-scale-height="300" data-pin-scale-width="80" href="https://www.pinterest.com/drawbuildplay/drawbuildplay-blog/"></a>
             </div>
         </section>
 
@@ -494,9 +507,6 @@ if (!doNotTrack) {
         </section>
         
 
-        
-
-       
 
     </section>
 </footer>
@@ -522,8 +532,13 @@ if (!doNotTrack) {
 }
 </script>
 
-            
-<script src='/assets/js/jquery.min.js'></script>
+            <script src='/assets/js/jquery.min.js'></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
 <script src='/assets/js/jquery.scrollex.min.js'></script>
 <script src='/assets/js/jquery.scrolly.min.js'></script>
 <script src='/assets/js/skel.min.js'></script>
@@ -541,8 +556,31 @@ if (!doNotTrack) {
 	    return false;
 	  });
 
+	    setTimeout(function() {
+	      $('#slideOutPanel').modal('show');
+	    }, 10000); 
+	 
 	})(jQuery);
 </script>
+
+
+
+<div class="modal fade" id="slideOutPanel" tabindex="-1" role="dialog" aria-labelledby="slideOutPanel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-slideout" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Keep up to date with our Projects</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>If you are enjoying this article, stay in the loop and follow us on Pinterest!</p>
+        <a data-pin-do="embedUser" data-pin-board-width="400" data-pin-scale-height="240" data-pin-scale-width="80" href="https://www.pinterest.com/drawbuildplay/"></a>
+      </div>
+    </div>
+  </div>
+</div>
 
 
     </body>

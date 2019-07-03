@@ -23,7 +23,7 @@ if (!doNotTrack) {
 		<script>
 		
 
-		$(function() {
+		(function() {
 		  $("a.tracked").click(function(e) {
 		    if (!ga.q) {
 		      var url = $(this).attr("href");
@@ -127,7 +127,7 @@ if (!doNotTrack) {
         
 
         
-        <li><a href='/#about'>Contact</a></li>
+        <li><a href='/#about'>My Story</a></li>
         
         
     </ul>
@@ -162,7 +162,7 @@ if (!doNotTrack) {
                                 <div class="image main">
                                     
                                      
-                                    <img alt="DIY Under Cabinet Lighting for less than $30" src="/uploads/under_cabinet_lighting_hu9a432610a0afef1c0cb04dfe03fa4130_16107800_1200x0_resize_box_2.png">
+                                    <img alt="DIY Under Cabinet Lighting for less than $30" src="/uploads/under_cabinet_lighting_hu9a432610a0afef1c0cb04dfe03fa4130_16107800_1200x0_resize_box_2.png" data-pin-nopin="true">
                                 </div>
                             
 
@@ -181,6 +181,19 @@ if (!doNotTrack) {
                             </p>
 
                             
+                            <div class="box">
+                                <ul class="icons alt">
+                                        <li>
+                                            <a href="https://www.pinterest.com/pin/create/button/" data-pin-do="buttonPin" data-pin-custom="true" data-pin-media="/uploads/cabinet-decor.png" data-pin-description="Cabinet Decor Lighting that levels up your cabinet decor by providing much needed accent lighting to your kitchen or bar area.  This easy DIY guides you on how to install your own cabinet decor lighting at an affordable cost. ">
+                                                <span class="button primary" id="btnShare">Pin This Now</span>
+                                            </a>
+                                        </li>
+                                </ul>
+
+                            </div>
+                            
+
+                            
 
 <p>One of the things we wanted to do when we built our home was to have under cabinet lighting in our kitchen.  Getting this from our builder was going to be $200 per light, and with three sections in our kitchen this would have easily cost us $600 - $1000 depending on how much we got.</p>
 
@@ -195,7 +208,7 @@ if (!doNotTrack) {
 
 
 <figure>
-	<img style="max-width: 100%; height: auto;" alt="Under Cabinet Lighting Outlet" src="/uploads/under_cabinet_lighting_outlet_hue8ec9aec91e81cca4cdd1d96a077a172_10396143_600x0_resize_box_2.png" width="600" height="450">
+	<img style="max-width: 100%; height: auto;" alt="Under Cabinet Lighting Outlet" src="/uploads/under_cabinet_lighting_outlet_hue8ec9aec91e81cca4cdd1d96a077a172_10396143_600x0_resize_box_2.png" width="600" height="450" data-pin-nopin="true">
 	<figcaption>
 	<h4>
 	
@@ -244,7 +257,7 @@ if (!doNotTrack) {
 
 
 <figure>
-	<img style="max-width: 100%; height: auto;" alt="Under Cabinet Lighting Wiring" src="/uploads/under_cabinet_lighting_wiring_hu82b40a1048aea336e0d5093732ef83f8_13832208_600x0_resize_box_2.png" width="600" height="450">
+	<img style="max-width: 100%; height: auto;" alt="Under Cabinet Lighting Wiring" src="/uploads/under_cabinet_lighting_wiring_hu82b40a1048aea336e0d5093732ef83f8_13832208_600x0_resize_box_2.png" width="600" height="450" data-pin-nopin="true">
 	<figcaption>
 	<h4>
 	
@@ -545,7 +558,7 @@ if (!doNotTrack) {
          <section>
             <div class="field">
                 <label>Follow DrawBuildPlay on Pinterest</label>
-                <a data-pin-do="embedUser" data-pin-board-width="600" data-pin-scale-height="240" data-pin-scale-width="80" href="https://www.pinterest.com/drawbuildplay/"></a>
+                <a data-pin-do="embedBoard" data-pin-board-width="600" data-pin-scale-height="300" data-pin-scale-width="80" href="https://www.pinterest.com/drawbuildplay/drawbuildplay-blog/"></a>
             </div>
         </section>
 
@@ -559,9 +572,6 @@ if (!doNotTrack) {
         </section>
         
 
-        
-
-       
 
     </section>
 </footer>
@@ -587,8 +597,13 @@ if (!doNotTrack) {
 }
 </script>
 
-            
-<script src='/assets/js/jquery.min.js'></script>
+            <script src='/assets/js/jquery.min.js'></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
 <script src='/assets/js/jquery.scrollex.min.js'></script>
 <script src='/assets/js/jquery.scrolly.min.js'></script>
 <script src='/assets/js/skel.min.js'></script>
@@ -606,8 +621,31 @@ if (!doNotTrack) {
 	    return false;
 	  });
 
+	    setTimeout(function() {
+	      $('#slideOutPanel').modal('show');
+	    }, 10000); 
+	 
 	})(jQuery);
 </script>
+
+
+
+<div class="modal fade" id="slideOutPanel" tabindex="-1" role="dialog" aria-labelledby="slideOutPanel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-slideout" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Keep up to date with our Projects</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>If you are enjoying this article, stay in the loop and follow us on Pinterest!</p>
+        <a data-pin-do="embedUser" data-pin-board-width="400" data-pin-scale-height="240" data-pin-scale-width="80" href="https://www.pinterest.com/drawbuildplay/"></a>
+      </div>
+    </div>
+  </div>
+</div>
 
 
     </body>

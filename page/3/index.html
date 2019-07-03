@@ -4,7 +4,7 @@
 
 <html lang='en'>
 	<head>
-	<meta name="generator" content="Hugo 0.54.0" />
+	<meta name="generator" content="Hugo 0.53" />
 		<title>DrawBuildPlay</title>
 		<meta name="description" content="Useful tips and tricks for designing and building things yourself">
 		<meta name="msvalidate.01" content="3E5C24AE74957914451DD85E5044D9E0" />
@@ -24,7 +24,7 @@ if (!doNotTrack) {
 		<script>
 		
 
-		$(function() {
+		(function() {
 		  $("a.tracked").click(function(e) {
 		    if (!ga.q) {
 		      var url = $(this).attr("href");
@@ -136,7 +136,7 @@ if (!doNotTrack) {
         
 
         
-        <li><a href='/#about'>Contact</a></li>
+        <li><a href='/#about'>My Story</a></li>
         
         
     </ul>
@@ -175,7 +175,7 @@ if (!doNotTrack) {
                 
                 
 
-                <img src="https://www.drawbuildplay.com/uploads/home-building-checklist_hu6223a2132c2b325159cdd747a1b6d590_2774911_600x400_fill_box_smart1_2.png" alt="Free Home Building Checklist">
+                <img src="https://www.drawbuildplay.com/uploads/home-building-checklist_hu6223a2132c2b325159cdd747a1b6d590_2774911_600x400_fill_box_smart1_2.png" alt="Free Home Building Checklist" data-pin-nopin="true">
             
 
         </a>    
@@ -200,7 +200,7 @@ if (!doNotTrack) {
                 
                 
 
-                <img src="https://www.drawbuildplay.com/uploads/under_cabinet_lighting_hu9a432610a0afef1c0cb04dfe03fa4130_16107800_600x400_fill_box_smart1_2.png" alt="DIY Under Cabinet Lighting for less than $30">
+                <img src="https://www.drawbuildplay.com/uploads/under_cabinet_lighting_hu9a432610a0afef1c0cb04dfe03fa4130_16107800_600x400_fill_box_smart1_2.png" alt="DIY Under Cabinet Lighting for less than $30" data-pin-nopin="true">
             
 
         </a>    
@@ -225,7 +225,7 @@ if (!doNotTrack) {
                 
                 
 
-                <img src="https://www.drawbuildplay.com/uploads/hdhomerun_huac7cc24cd76c43a7cff2f194695ad791_2227507_600x400_fill_q75_box_smart1.jpg" alt="Watch TV for free with an HDHomeRun and an Apple TV">
+                <img src="https://www.drawbuildplay.com/uploads/hdhomerun_huac7cc24cd76c43a7cff2f194695ad791_2227507_600x400_fill_q75_box_smart1.jpg" alt="Watch TV for free with an HDHomeRun and an Apple TV" data-pin-nopin="true">
             
 
         </a>    
@@ -250,7 +250,7 @@ if (!doNotTrack) {
                 
                 
 
-                <img src="https://www.drawbuildplay.com/uploads/landline_hu47c48ec378fcb82aebc831bfd7fa89e3_4388303_600x400_fill_q75_box_smart1.jpg" alt="Under Cabinet Lighting">
+                <img src="https://www.drawbuildplay.com/uploads/landline_hu47c48ec378fcb82aebc831bfd7fa89e3_4388303_600x400_fill_q75_box_smart1.jpg" alt="Under Cabinet Lighting" data-pin-nopin="true">
             
 
         </a>    
@@ -307,7 +307,7 @@ if (!doNotTrack) {
          <section>
             <div class="field">
                 <label>Follow DrawBuildPlay on Pinterest</label>
-                <a data-pin-do="embedUser" data-pin-board-width="600" data-pin-scale-height="240" data-pin-scale-width="80" href="https://www.pinterest.com/drawbuildplay/"></a>
+                <a data-pin-do="embedBoard" data-pin-board-width="600" data-pin-scale-height="300" data-pin-scale-width="80" href="https://www.pinterest.com/drawbuildplay/drawbuildplay-blog/"></a>
             </div>
         </section>
 
@@ -321,9 +321,6 @@ if (!doNotTrack) {
         </section>
         
 
-        
-
-       
 
     </section>
 </footer>
@@ -349,8 +346,13 @@ if (!doNotTrack) {
 }
 </script>
 
-			
-<script src='/assets/js/jquery.min.js'></script>
+			<script src='/assets/js/jquery.min.js'></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
 <script src='/assets/js/jquery.scrollex.min.js'></script>
 <script src='/assets/js/jquery.scrolly.min.js'></script>
 <script src='/assets/js/skel.min.js'></script>
@@ -368,10 +370,31 @@ if (!doNotTrack) {
 	    return false;
 	  });
 
+	    setTimeout(function() {
+	      $('#slideOutPanel').modal('show');
+	    }, 10000); 
+	 
 	})(jQuery);
 </script>
 
 
+
+<div class="modal fade" id="slideOutPanel" tabindex="-1" role="dialog" aria-labelledby="slideOutPanel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-slideout" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Keep up to date with our Projects</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>If you are enjoying this article, stay in the loop and follow us on Pinterest!</p>
+        <a data-pin-do="embedUser" data-pin-board-width="400" data-pin-scale-height="240" data-pin-scale-width="80" href="https://www.pinterest.com/drawbuildplay/"></a>
+      </div>
+    </div>
+  </div>
+</div>
 
 	</body>
 </html>
