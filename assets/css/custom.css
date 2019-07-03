@@ -1,0 +1,15 @@
+a{
+	border-bottom: 0;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+.post a{
+	color: #e60023;
+}
+
+.relatedArticles a{
+	color: #000 !important;
+}
