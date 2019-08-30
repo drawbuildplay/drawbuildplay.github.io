@@ -330,7 +330,7 @@ if (!doNotTrack) {
                     
                     
 
-                    <img class="card-img-top" data-pin-nopin="true" src="https://www.drawbuildplay.com/uploads/BuilderUpgrades_hue30fd9f217c2eeb7a4e288e02f03c7d6_4682811_0x400_resize_box_2.png" alt="Top 10 Must Have Builder Upgrades when building a new home">
+                    <img class="card-img-top" data-pin-nopin="true" data-src="https://www.drawbuildplay.com/uploads/BuilderUpgrades_hue30fd9f217c2eeb7a4e288e02f03c7d6_4682811_0x400_resize_box_2.png" alt="Top 10 Must Have Builder Upgrades when building a new home">
                 
             
         </a>  
@@ -353,7 +353,7 @@ if (!doNotTrack) {
                     
                     
 
-                    <img class="card-img-top" data-pin-nopin="true" src="https://www.drawbuildplay.com/uploads/Outdoor-Patio-Lighting_hue4464a420f869b4882fccc1c73d52e6c_992808_0x400_resize_q75_box.JPG" alt="Patio Lighting">
+                    <img class="card-img-top" data-pin-nopin="true" data-src="https://www.drawbuildplay.com/uploads/Outdoor-Patio-Lighting_hue4464a420f869b4882fccc1c73d52e6c_992808_0x400_resize_q75_box.JPG" alt="Patio Lighting">
                 
             
         </a>  
@@ -376,7 +376,7 @@ if (!doNotTrack) {
                     
                     
 
-                    <img class="card-img-top" data-pin-nopin="true" src="https://www.drawbuildplay.com/uploads/outdoor_lighting_hu74e1f74b5ceb379e2512c47388775051_93797_0x400_resize_q75_box.jpeg" alt="DIY Outdoor Landscape Lighting">
+                    <img class="card-img-top" data-pin-nopin="true" data-src="https://www.drawbuildplay.com/uploads/outdoor_lighting_hu74e1f74b5ceb379e2512c47388775051_93797_0x400_resize_q75_box.jpeg" alt="DIY Outdoor Landscape Lighting">
                 
             
         </a>  
@@ -399,7 +399,7 @@ if (!doNotTrack) {
                     
                     
 
-                    <img class="card-img-top" data-pin-nopin="true" src="https://www.drawbuildplay.com/uploads/home-building-checklist_hu6223a2132c2b325159cdd747a1b6d590_2774911_0x400_resize_box_2.png" alt="Free Home Building Checklist">
+                    <img class="card-img-top" data-pin-nopin="true" data-src="https://www.drawbuildplay.com/uploads/home-building-checklist_hu6223a2132c2b325159cdd747a1b6d590_2774911_0x400_resize_box_2.png" alt="Free Home Building Checklist">
                 
             
         </a>  
@@ -422,7 +422,7 @@ if (!doNotTrack) {
                     
                     
 
-                    <img class="card-img-top" data-pin-nopin="true" src="https://www.drawbuildplay.com/uploads/backyard-privacy-fence_hu21dc9f1c86d7993f3fef1c30d62e8d33_20874271_0x400_resize_box_2.png" alt="Backyard Privacy Fence">
+                    <img class="card-img-top" data-pin-nopin="true" data-src="https://www.drawbuildplay.com/uploads/backyard-privacy-fence_hu21dc9f1c86d7993f3fef1c30d62e8d33_20874271_0x400_resize_box_2.png" alt="Backyard Privacy Fence">
                 
             
         </a>  
@@ -445,7 +445,7 @@ if (!doNotTrack) {
                     
                     
 
-                    <img class="card-img-top" data-pin-nopin="true" src="https://www.drawbuildplay.com/uploads/USB-Outlet-With-Wire_hu73d39ba645baf92b592a1177165b375c_873291_0x400_resize_q75_box.jpg" alt="How to install a USB Outlet">
+                    <img class="card-img-top" data-pin-nopin="true" data-src="https://www.drawbuildplay.com/uploads/USB-Outlet-With-Wire_hu73d39ba645baf92b592a1177165b375c_873291_0x400_resize_q75_box.jpg" alt="How to install a USB Outlet">
                 
             
         </a>  
@@ -593,10 +593,18 @@ if (!doNotTrack) {
 	    return false;
 	  });
 
-	    setTimeout(function() {
-	      $('#slideOutPanel').modal('show');
-	    }, 10000); 
+    setTimeout(function() {
+      $('#slideOutPanel').modal('show');
+    }, 10000); 
 	 
+    var imgDefer = $('img');
+    $.each(imgDefer, function(i, img){
+      datasrc = $(img).attr('data-src');
+      if (datasrc) {
+        $(img).attr('src', datasrc)
+      }
+    });
+
 	})(jQuery);
 </script>
 

@@ -340,7 +340,7 @@ if (!doNotTrack) {
                     
                     
 
-                    <img class="card-img-top" data-pin-nopin="true" src="https://www.drawbuildplay.com/uploads/farmhouse-ladder-decor_hued08aa7163ff60f177f104f4833b9896_1185927_0x400_resize_q75_box.JPG" alt="Farmhouse Ladder Shelf Decor">
+                    <img class="card-img-top" data-pin-nopin="true" data-src="https://www.drawbuildplay.com/uploads/farmhouse-ladder-decor_hued08aa7163ff60f177f104f4833b9896_1185927_0x400_resize_q75_box.JPG" alt="Farmhouse Ladder Shelf Decor">
                 
             
         </a>  
@@ -363,7 +363,7 @@ if (!doNotTrack) {
                     
                     
 
-                    <img class="card-img-top" data-pin-nopin="true" src="https://www.drawbuildplay.com/uploads/OutletInDrawer_hu45ea8898722a4235c7353df0deb16899_16884250_0x400_resize_box_2.png" alt="DIY Outlet In Drawer">
+                    <img class="card-img-top" data-pin-nopin="true" data-src="https://www.drawbuildplay.com/uploads/OutletInDrawer_hu45ea8898722a4235c7353df0deb16899_16884250_0x400_resize_box_2.png" alt="DIY Outlet In Drawer">
                 
             
         </a>  
@@ -386,7 +386,7 @@ if (!doNotTrack) {
                     
                     
 
-                    <img class="card-img-top" data-pin-nopin="true" src="https://www.drawbuildplay.com/uploads/DIY%20Drawer%20Organizer_hucf5a43e4ba8582561aaeff58cc128883_757065_0x400_resize_q75_box.JPG" alt="DIY Drawer Organizer">
+                    <img class="card-img-top" data-pin-nopin="true" data-src="https://www.drawbuildplay.com/uploads/DIY%20Drawer%20Organizer_hucf5a43e4ba8582561aaeff58cc128883_757065_0x400_resize_q75_box.JPG" alt="DIY Drawer Organizer">
                 
             
         </a>  
@@ -409,7 +409,7 @@ if (!doNotTrack) {
                     
                     
 
-                    <img class="card-img-top" data-pin-nopin="true" src="https://www.drawbuildplay.com/uploads/consoletable_hub8dafca2209f9c8620fbc7fac484913d_4770855_0x400_resize_box_2.png" alt="Beautiful Entry Console Table">
+                    <img class="card-img-top" data-pin-nopin="true" data-src="https://www.drawbuildplay.com/uploads/consoletable_hub8dafca2209f9c8620fbc7fac484913d_4770855_0x400_resize_box_2.png" alt="Beautiful Entry Console Table">
                 
             
         </a>  
@@ -432,7 +432,7 @@ if (!doNotTrack) {
                     
                     
 
-                    <img class="card-img-top" data-pin-nopin="true" src="https://www.drawbuildplay.com/uploads/GV4A7575_hu2e6e51d9f7aac7f4725e46c1ce0dabdb_685155_0x400_resize_q75_box.jpg" alt="Office Shelving">
+                    <img class="card-img-top" data-pin-nopin="true" data-src="https://www.drawbuildplay.com/uploads/GV4A7575_hu2e6e51d9f7aac7f4725e46c1ce0dabdb_685155_0x400_resize_q75_box.jpg" alt="Office Shelving">
                 
             
         </a>  
@@ -455,7 +455,7 @@ if (!doNotTrack) {
                     
                     
 
-                    <img class="card-img-top" data-pin-nopin="true" src="https://www.drawbuildplay.com/uploads/under_cabinet_lighting_hu9a432610a0afef1c0cb04dfe03fa4130_16107800_0x400_resize_box_2.png" alt="DIY Under Cabinet Lighting for less than $30">
+                    <img class="card-img-top" data-pin-nopin="true" data-src="https://www.drawbuildplay.com/uploads/under_cabinet_lighting_hu9a432610a0afef1c0cb04dfe03fa4130_16107800_0x400_resize_box_2.png" alt="DIY Under Cabinet Lighting for less than $30">
                 
             
         </a>  
@@ -603,10 +603,18 @@ if (!doNotTrack) {
 	    return false;
 	  });
 
-	    setTimeout(function() {
-	      $('#slideOutPanel').modal('show');
-	    }, 10000); 
+    setTimeout(function() {
+      $('#slideOutPanel').modal('show');
+    }, 10000); 
 	 
+    var imgDefer = $('img');
+    $.each(imgDefer, function(i, img){
+      datasrc = $(img).attr('data-src');
+      if (datasrc) {
+        $(img).attr('src', datasrc)
+      }
+    });
+
 	})(jQuery);
 </script>
 

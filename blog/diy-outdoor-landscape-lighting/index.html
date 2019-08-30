@@ -493,7 +493,7 @@ Get it plugged in and make sure it turns on.  Now disconnect it before connectin
                     
                     
 
-                    <img class="card-img-top" data-pin-nopin="true" src="https://www.drawbuildplay.com/uploads/Outdoor-Patio-Lighting_hue4464a420f869b4882fccc1c73d52e6c_992808_0x400_resize_q75_box.JPG" alt="Patio Lighting">
+                    <img class="card-img-top" data-pin-nopin="true" data-src="https://www.drawbuildplay.com/uploads/Outdoor-Patio-Lighting_hue4464a420f869b4882fccc1c73d52e6c_992808_0x400_resize_q75_box.JPG" alt="Patio Lighting">
                 
             
         </a>  
@@ -516,7 +516,7 @@ Get it plugged in and make sure it turns on.  Now disconnect it before connectin
                     
                     
 
-                    <img class="card-img-top" data-pin-nopin="true" src="https://www.drawbuildplay.com/uploads/BuilderUpgrades_hue30fd9f217c2eeb7a4e288e02f03c7d6_4682811_0x400_resize_box_2.png" alt="Top 10 Must Have Builder Upgrades when building a new home">
+                    <img class="card-img-top" data-pin-nopin="true" data-src="https://www.drawbuildplay.com/uploads/BuilderUpgrades_hue30fd9f217c2eeb7a4e288e02f03c7d6_4682811_0x400_resize_box_2.png" alt="Top 10 Must Have Builder Upgrades when building a new home">
                 
             
         </a>  
@@ -539,7 +539,7 @@ Get it plugged in and make sure it turns on.  Now disconnect it before connectin
                     
                     
 
-                    <img class="card-img-top" data-pin-nopin="true" src="https://www.drawbuildplay.com/uploads/DIY%20Herb%20Garden%20Planter%20Box-1_hu6ee929ee5d00c811a04fae102b28c3d0_9665037_0x400_resize_box_2.png" alt="DIY Herb Garden Planter Box">
+                    <img class="card-img-top" data-pin-nopin="true" data-src="https://www.drawbuildplay.com/uploads/DIY%20Herb%20Garden%20Planter%20Box-1_hu6ee929ee5d00c811a04fae102b28c3d0_9665037_0x400_resize_box_2.png" alt="DIY Herb Garden Planter Box">
                 
             
         </a>  
@@ -562,7 +562,7 @@ Get it plugged in and make sure it turns on.  Now disconnect it before connectin
                     
                     
 
-                    <img class="card-img-top" data-pin-nopin="true" src="https://www.drawbuildplay.com/uploads/home-building-location_hu814e5f9c62b3b0fc7e2928731b2d8694_5715373_0x400_resize_box_2.png" alt="Free Home Building Checklist - Choosing a Location Checklist">
+                    <img class="card-img-top" data-pin-nopin="true" data-src="https://www.drawbuildplay.com/uploads/home-building-location_hu814e5f9c62b3b0fc7e2928731b2d8694_5715373_0x400_resize_box_2.png" alt="Free Home Building Checklist - Choosing a Location Checklist">
                 
             
         </a>  
@@ -585,7 +585,7 @@ Get it plugged in and make sure it turns on.  Now disconnect it before connectin
                     
                     
 
-                    <img class="card-img-top" data-pin-nopin="true" src="https://www.drawbuildplay.com/uploads/backyard-privacy-fence_hu21dc9f1c86d7993f3fef1c30d62e8d33_20874271_0x400_resize_box_2.png" alt="Backyard Privacy Fence">
+                    <img class="card-img-top" data-pin-nopin="true" data-src="https://www.drawbuildplay.com/uploads/backyard-privacy-fence_hu21dc9f1c86d7993f3fef1c30d62e8d33_20874271_0x400_resize_box_2.png" alt="Backyard Privacy Fence">
                 
             
         </a>  
@@ -608,7 +608,7 @@ Get it plugged in and make sure it turns on.  Now disconnect it before connectin
                     
                     
 
-                    <img class="card-img-top" data-pin-nopin="true" src="https://www.drawbuildplay.com/uploads/smart%20home%20guide%20%281%29_hu77c0b767e9d9b8730bc673168a64f470_596585_0x400_resize_box_2.png" alt="10 Awesome and Affordable Tech Gadgets for your home">
+                    <img class="card-img-top" data-pin-nopin="true" data-src="https://www.drawbuildplay.com/uploads/smart%20home%20guide%20%281%29_hu77c0b767e9d9b8730bc673168a64f470_596585_0x400_resize_box_2.png" alt="10 Awesome and Affordable Tech Gadgets for your home">
                 
             
         </a>  
@@ -756,10 +756,18 @@ if (!doNotTrack) {
 	    return false;
 	  });
 
-	    setTimeout(function() {
-	      $('#slideOutPanel').modal('show');
-	    }, 10000); 
+    setTimeout(function() {
+      $('#slideOutPanel').modal('show');
+    }, 10000); 
 	 
+    var imgDefer = $('img');
+    $.each(imgDefer, function(i, img){
+      datasrc = $(img).attr('data-src');
+      if (datasrc) {
+        $(img).attr('src', datasrc)
+      }
+    });
+
 	})(jQuery);
 </script>
 

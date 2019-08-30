@@ -375,7 +375,7 @@ if (!doNotTrack) {
                     
                     
 
-                    <img class="card-img-top" data-pin-nopin="true" src="https://www.drawbuildplay.com/uploads/OutletInDrawer_hu45ea8898722a4235c7353df0deb16899_16884250_0x400_resize_box_2.png" alt="DIY Outlet In Drawer">
+                    <img class="card-img-top" data-pin-nopin="true" data-src="https://www.drawbuildplay.com/uploads/OutletInDrawer_hu45ea8898722a4235c7353df0deb16899_16884250_0x400_resize_box_2.png" alt="DIY Outlet In Drawer">
                 
             
         </a>  
@@ -398,7 +398,7 @@ if (!doNotTrack) {
                     
                     
 
-                    <img class="card-img-top" data-pin-nopin="true" src="https://www.drawbuildplay.com/uploads/under_cabinet_lighting_hu9a432610a0afef1c0cb04dfe03fa4130_16107800_0x400_resize_box_2.png" alt="DIY Under Cabinet Lighting for less than $30">
+                    <img class="card-img-top" data-pin-nopin="true" data-src="https://www.drawbuildplay.com/uploads/under_cabinet_lighting_hu9a432610a0afef1c0cb04dfe03fa4130_16107800_0x400_resize_box_2.png" alt="DIY Under Cabinet Lighting for less than $30">
                 
             
         </a>  
@@ -421,7 +421,7 @@ if (!doNotTrack) {
                     
                     
 
-                    <img class="card-img-top" data-pin-nopin="true" src="https://www.drawbuildplay.com/uploads/BuilderUpgrades_hue30fd9f217c2eeb7a4e288e02f03c7d6_4682811_0x400_resize_box_2.png" alt="Top 10 Must Have Builder Upgrades when building a new home">
+                    <img class="card-img-top" data-pin-nopin="true" data-src="https://www.drawbuildplay.com/uploads/BuilderUpgrades_hue30fd9f217c2eeb7a4e288e02f03c7d6_4682811_0x400_resize_box_2.png" alt="Top 10 Must Have Builder Upgrades when building a new home">
                 
             
         </a>  
@@ -444,7 +444,7 @@ if (!doNotTrack) {
                     
                     
 
-                    <img class="card-img-top" data-pin-nopin="true" src="https://www.drawbuildplay.com/uploads/DIY%20Drawer%20Organizer_hucf5a43e4ba8582561aaeff58cc128883_757065_0x400_resize_q75_box.JPG" alt="DIY Drawer Organizer">
+                    <img class="card-img-top" data-pin-nopin="true" data-src="https://www.drawbuildplay.com/uploads/DIY%20Drawer%20Organizer_hucf5a43e4ba8582561aaeff58cc128883_757065_0x400_resize_q75_box.JPG" alt="DIY Drawer Organizer">
                 
             
         </a>  
@@ -467,7 +467,7 @@ if (!doNotTrack) {
                     
                     
 
-                    <img class="card-img-top" data-pin-nopin="true" src="https://www.drawbuildplay.com/uploads/farmhouse-ladder-decor_hued08aa7163ff60f177f104f4833b9896_1185927_0x400_resize_q75_box.JPG" alt="Farmhouse Ladder Shelf Decor">
+                    <img class="card-img-top" data-pin-nopin="true" data-src="https://www.drawbuildplay.com/uploads/farmhouse-ladder-decor_hued08aa7163ff60f177f104f4833b9896_1185927_0x400_resize_q75_box.JPG" alt="Farmhouse Ladder Shelf Decor">
                 
             
         </a>  
@@ -490,7 +490,7 @@ if (!doNotTrack) {
                     
                     
 
-                    <img class="card-img-top" data-pin-nopin="true" src="https://www.drawbuildplay.com/uploads/landline_hu47c48ec378fcb82aebc831bfd7fa89e3_4388303_0x400_resize_q75_box.jpg" alt="Under Cabinet Lighting">
+                    <img class="card-img-top" data-pin-nopin="true" data-src="https://www.drawbuildplay.com/uploads/landline_hu47c48ec378fcb82aebc831bfd7fa89e3_4388303_0x400_resize_q75_box.jpg" alt="Under Cabinet Lighting">
                 
             
         </a>  
@@ -638,10 +638,18 @@ if (!doNotTrack) {
 	    return false;
 	  });
 
-	    setTimeout(function() {
-	      $('#slideOutPanel').modal('show');
-	    }, 10000); 
+    setTimeout(function() {
+      $('#slideOutPanel').modal('show');
+    }, 10000); 
 	 
+    var imgDefer = $('img');
+    $.each(imgDefer, function(i, img){
+      datasrc = $(img).attr('data-src');
+      if (datasrc) {
+        $(img).attr('src', datasrc)
+      }
+    });
+
 	})(jQuery);
 </script>
 

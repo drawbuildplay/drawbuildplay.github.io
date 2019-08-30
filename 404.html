@@ -44,7 +44,7 @@ if (!doNotTrack) {
 	    <meta property="og:type" content="website">
 	    
 	    <meta property="og:description" content="">
-	    <meta property="og:url" content="">
+	    <meta property="og:url" content="https://www.drawbuildplay.com/404.html">
 	    <meta property="og:site_name" content="DrawBuildPlay">
 	    
 
@@ -231,10 +231,18 @@ if (!doNotTrack) {
 	    return false;
 	  });
 
-	    setTimeout(function() {
-	      $('#slideOutPanel').modal('show');
-	    }, 10000); 
+    setTimeout(function() {
+      $('#slideOutPanel').modal('show');
+    }, 10000); 
 	 
+    var imgDefer = $('img');
+    $.each(imgDefer, function(i, img){
+      datasrc = $(img).attr('data-src');
+      if (datasrc) {
+        $(img).attr('src', datasrc)
+      }
+    });
+
 	})(jQuery);
 </script>
 

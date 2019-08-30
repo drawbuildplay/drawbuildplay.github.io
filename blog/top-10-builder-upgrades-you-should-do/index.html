@@ -375,7 +375,7 @@ if (!doNotTrack) {
                     
                     
 
-                    <img class="card-img-top" data-pin-nopin="true" src="https://www.drawbuildplay.com/uploads/Outdoor-Patio-Lighting_hue4464a420f869b4882fccc1c73d52e6c_992808_0x400_resize_q75_box.JPG" alt="Patio Lighting">
+                    <img class="card-img-top" data-pin-nopin="true" data-src="https://www.drawbuildplay.com/uploads/Outdoor-Patio-Lighting_hue4464a420f869b4882fccc1c73d52e6c_992808_0x400_resize_q75_box.JPG" alt="Patio Lighting">
                 
             
         </a>  
@@ -398,7 +398,7 @@ if (!doNotTrack) {
                     
                     
 
-                    <img class="card-img-top" data-pin-nopin="true" src="https://www.drawbuildplay.com/uploads/outdoor_lighting_hu74e1f74b5ceb379e2512c47388775051_93797_0x400_resize_q75_box.jpeg" alt="DIY Outdoor Landscape Lighting">
+                    <img class="card-img-top" data-pin-nopin="true" data-src="https://www.drawbuildplay.com/uploads/outdoor_lighting_hu74e1f74b5ceb379e2512c47388775051_93797_0x400_resize_q75_box.jpeg" alt="DIY Outdoor Landscape Lighting">
                 
             
         </a>  
@@ -421,7 +421,7 @@ if (!doNotTrack) {
                     
                     
 
-                    <img class="card-img-top" data-pin-nopin="true" src="https://www.drawbuildplay.com/uploads/home-building-location_hu814e5f9c62b3b0fc7e2928731b2d8694_5715373_0x400_resize_box_2.png" alt="Free Home Building Checklist - Choosing a Location Checklist">
+                    <img class="card-img-top" data-pin-nopin="true" data-src="https://www.drawbuildplay.com/uploads/home-building-location_hu814e5f9c62b3b0fc7e2928731b2d8694_5715373_0x400_resize_box_2.png" alt="Free Home Building Checklist - Choosing a Location Checklist">
                 
             
         </a>  
@@ -444,7 +444,7 @@ if (!doNotTrack) {
                     
                     
 
-                    <img class="card-img-top" data-pin-nopin="true" src="https://www.drawbuildplay.com/uploads/landline_hu47c48ec378fcb82aebc831bfd7fa89e3_4388303_0x400_resize_q75_box.jpg" alt="Under Cabinet Lighting">
+                    <img class="card-img-top" data-pin-nopin="true" data-src="https://www.drawbuildplay.com/uploads/landline_hu47c48ec378fcb82aebc831bfd7fa89e3_4388303_0x400_resize_q75_box.jpg" alt="Under Cabinet Lighting">
                 
             
         </a>  
@@ -467,7 +467,7 @@ if (!doNotTrack) {
                     
                     
 
-                    <img class="card-img-top" data-pin-nopin="true" src="https://www.drawbuildplay.com/uploads/OutletInDrawer_hu45ea8898722a4235c7353df0deb16899_16884250_0x400_resize_box_2.png" alt="DIY Outlet In Drawer">
+                    <img class="card-img-top" data-pin-nopin="true" data-src="https://www.drawbuildplay.com/uploads/OutletInDrawer_hu45ea8898722a4235c7353df0deb16899_16884250_0x400_resize_box_2.png" alt="DIY Outlet In Drawer">
                 
             
         </a>  
@@ -490,7 +490,7 @@ if (!doNotTrack) {
                     
                     
 
-                    <img class="card-img-top" data-pin-nopin="true" src="https://www.drawbuildplay.com/uploads/USB-Outlet-With-Wire_hu73d39ba645baf92b592a1177165b375c_873291_0x400_resize_q75_box.jpg" alt="How to install a USB Outlet">
+                    <img class="card-img-top" data-pin-nopin="true" data-src="https://www.drawbuildplay.com/uploads/USB-Outlet-With-Wire_hu73d39ba645baf92b592a1177165b375c_873291_0x400_resize_q75_box.jpg" alt="How to install a USB Outlet">
                 
             
         </a>  
@@ -638,10 +638,18 @@ if (!doNotTrack) {
 	    return false;
 	  });
 
-	    setTimeout(function() {
-	      $('#slideOutPanel').modal('show');
-	    }, 10000); 
+    setTimeout(function() {
+      $('#slideOutPanel').modal('show');
+    }, 10000); 
 	 
+    var imgDefer = $('img');
+    $.each(imgDefer, function(i, img){
+      datasrc = $(img).attr('data-src');
+      if (datasrc) {
+        $(img).attr('src', datasrc)
+      }
+    });
+
 	})(jQuery);
 </script>
 
