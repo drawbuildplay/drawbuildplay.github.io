@@ -1,0 +1,47 @@
+baseURL = "http://localhost:1313/"
+languageCode = "en-us"
+title = "DrawBuildPlay"
+theme = "massively"
+disqusShortname = "drawbuildplay"
+googleAnalytics = "UA-73309318-2"
+enableRobotsTXT = true
+
+[related]
+threshold = 80
+includeNewer = true
+toLower = false
+[[related.indices]]
+name = "keywords"
+weight = 100
+[[related.indices]]
+name  = "date"
+weight = 10
+pattern = "2006"
+
+# set below parameter to define a favicon
+[params]
+    favicon = "/favicon.png"
+    author = "Amit Gandhi"
+	site_description = "Useful tips and tricks for designing and building things yourself"
+	description = "Useful tips and tricks for designing and building things yourself"
+
+[outputs]
+  home = ["HTML", "RSS"]
+  page = ["HTML"]
+
+# Below parameters can be set to override default post settings
+[params.posts]
+     foldername = "blog"
+     pagesize = "10"
+     featuredpost = "false"
+
+[permalinks]
+  blog = "/blog/:title/"
+
+[taxonomies]
+  category = "categories"
+
+[languages]
+[languages.en]
+  languageName = "English"
+

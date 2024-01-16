@@ -1,0 +1,77 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html lang='{{ .Site.Language.Lang | default "en-us" }}'>
+	<head>
+		<title>{{ if eq (.Site.Title) (.Title) }}{{ .Site.Title }}{{ else }}{{ .Title }} &middot; {{ .Site.Title }}{{ end }}</title>
+		<meta name="description" content="{{ if (.Description) }}{{ .Description }}{{ else }}Useful tips and tricks for designing and building things yourself{{ end }}">
+		<meta name="msvalidate.01" content="3E5C24AE74957914451DD85E5044D9E0" />
+		
+		<!-- Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-73309318-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-73309318-1');
+		</script>
+		<!-- end GA -->
+
+		<script>
+		
+		</script>
+
+		<!-- Start of Open Graph -->
+	    <meta property="og:title" content="{{ .Title }}">
+	    {{ if .IsPage }}
+	    <meta property="og:type" content="article">
+	    <meta property="article:published_time" content="{{ .Date.Format "2006-01-02" }}">
+	    {{ else }}
+	    <meta property="og:type" content="website">
+	    {{ end }}
+	    <meta property="og:description" content="{{ .Description }}">
+	    <meta property="og:url" content="{{ .Permalink }}">
+	    <meta property="og:site_name" content="{{ .Site.Title }}">
+	    
+
+		{{ $imageResources := .Site.GetPage "/uploads" }}
+        {{ with .Params.images }}
+            {{ $imageName := .name }}
+            {{ $imgToFind := strings.TrimPrefix "/uploads/" .src }}
+            {{ $imageResource := $imageResources.Resources.GetMatch (strings.TrimPrefix "/uploads/" .src ) }}
+            {{ $cover := $imageResource.Resize "1200x" }} 
+	    <meta property="og:image" content="{{ $cover.Permalink }}">
+	    {{ end }}
+
+
+
+	    {{ range .Params.categories }}
+	    <meta property="og:tags" content="{{ . }}">
+	    {{ end }}
+	    <!-- End of Open Graph -->
+		
+		
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href='{{ "assets/css/main.css" | relURL }}' />
+		<link rel="stylesheet" href='{{ "assets/css/custom.css" | relURL }}' />
+		<link rel="stylesheet" href='{{ "assets/css/custom.css" | relURL }}' />
+		<noscript><link rel="stylesheet" href='{{ "assets/css/noscript.css" | relURL }}' /></noscript>
+
+		{{ with .Site.Params.favicon }}
+		<link rel="shortcut icon" href="{{ . }}">
+		{{ end }}
+
+		{{ range .AlternativeOutputFormats -}}
+		<link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
+		{{ end -}}
+
+
+	</head>

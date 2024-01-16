@@ -1,0 +1,15 @@
+{{ $src := .Get 1}}
+{{ $url := .Get 3}}
+{{ $title := .Get 5}}
+
+<figure>
+	<a href="{{ $url }}" title="{{ $title }}" class="tracked" >
+		<img alt="{{ $title }}" src="{{ $src }}" height="150px" >
+	</a>
+	<figcaption>
+	<h4>
+	{{ $title }}
+	</h4>
+	</figcaption>
+</figure>  
+

@@ -1,0 +1,30 @@
+<!-- Posts -->
+{{ $data := .siteData }}
+<section class="posts">
+    {{ range .posts.Pages }}
+    <article>
+        <header>
+            <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+        </header>
+
+        <a href="{{ .Permalink }}" class="image fit">
+
+            {{ $imageResources := .Site.GetPage "/uploads" }}
+            {{ with .Params.images }}
+                {{ $imageName := .name }}
+                {{ $imgToFind := strings.TrimPrefix "/uploads/" .src }}
+                {{ $imageResource := $imageResources.Resources.GetMatch (strings.TrimPrefix "/uploads/" .src ) }}
+                {{ $resized := $imageResource.Fill "600x400" }}
+
+                <img src="{{ $resized.Permalink }}" alt="{{ $imageName }}" data-pin-nopin="true">
+            {{ end }}
+
+        </a>    
+
+        <p>{{ .Description }}</p>
+        <ul class="actions">
+            <li><a href="{{ .Permalink }}" class="button">{{ $data.post.linktext }}</a></li>
+        </ul>
+    </article>
+    {{ end }}
+</section>
