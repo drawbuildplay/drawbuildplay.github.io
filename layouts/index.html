@@ -9,37 +9,30 @@
 
 				 <!-- Main -->
 				 <div id="main">
-					<section class="posts">
+					<div class="card-columns relatedArticles">
 						{{ range .Site.RegularPages }}
-						<article>
-							<header>
-								<h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-							</header>
-					
-							<a href="{{ .Permalink }}" class="image fit">
-					
+						<div class="card">
+							<a href="{{ .Permalink }}">
 								{{ $imageResources := .Site.GetPage "/uploads" }}
 								{{ with .Params.images }}
 									{{ $imageName := .name }}
-									{{ $imgToFind := strings.TrimPrefix "/uploads/" .src }}
-									{{ $imageResource := $imageResources.Resources.GetMatch (strings.TrimPrefix "/uploads/" .src ) }}
-									{{ $resized := $imageResource.Fill "600x400" }}
+									
+									{{ if not (eq .src "") }}
+										{{ $imgToFind := strings.TrimPrefix "/uploads/" .src }}
+										{{ $imageResource := $imageResources.Resources.GetMatch ($imgToFind) }}
+										{{ $resized := $imageResource.Resize "x400" }}
 					
-									<img src="{{ $resized.Permalink }}" alt="{{ $imageName }}" data-pin-nopin="true">
+										<img class="card-img-top" data-pin-nopin="true" data-src="{{ $resized.Permalink }}" alt="{{ $imageName }}">
+									{{ end }}
 								{{ end }}
-					
-							</a>    
-					
-							<p>{{ .Description }}</p>
-							<ul class="actions">
-								<li><a href="{{ .Permalink }}" class="button">READ MORE</a></li>
-							</ul>
-						</article>
-					{{ end }}
-					</section>
+							</a>  
+							<div class="card-body">
+								<h5 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h5>
+							</div>
+						</div>
+						{{ end }}
+					</div>
 				</div>
-				
-			</div>
 
 			{{ template "_internal/google_analytics.html" . }}
 			{{ partial "scripts/index" . }}
