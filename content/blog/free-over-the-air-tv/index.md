@@ -58,7 +58,7 @@ Along with the live TV we watch, our second source for content is from Netflix. 
 
 Also important to us was to have a single interface.  I didnt want to have to deal with multiple remotes, different sources etc.  With this approach, everything is available via my Apple TV.
 
-Still interested?  Then great.  I have this set up running in my home, and at my parents.  You dont have to be technically savvy to get this working, and anyone can operate it like their traditional cable set up.  It meets the wife and parent tests!
+Still interested?  Then great.  I have this set up running in my home, and at my parents.  You dont have to be technically savvy to get this working, and anyone can operate it like their traditional cable set up.  It meets the parent tests!
 
 ## SHOPPING LIST
 

@@ -28,7 +28,7 @@ pin_description = "Farmhouse Console Table for your home entry way or hallway. W
 pin_image = "pins/farmhouse console table.png"
 
 +++
-This table was not one of my own DIY projects since it was so cheap to just go out and buy.  We purchased this entry way console table from our local HomeGoods store for only $60.  I probably could have DIY built it myself, but my wife saw this and wanted to get it on the spot.
+This table was not one of my own DIY projects since it was so cheap to just go out and buy.  We purchased this entry way console table from our local HomeGoods store for only $60.  I probably could have DIY built it myself, but I saw this and wanted to get it on the spot.
 
 This entryway console table provides a beautiful visual when our friends visit as it's the first thing they see.  The table is thin so it doesn't get in the way - which is especially important as we have two young kids that are constantly running past this table.
 

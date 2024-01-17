@@ -4,30 +4,23 @@
     <section class="split contact" id="about">
         <section>
             <figure>
-                <img src="/images/footer.jpg"  width="100%" alt="DrawBuildPlay - Amit Gandhi" title="DrawBuildPlay - Amit Gandhi" nopin="nopin">
+                {{ with $data.contactinfo.bio }}
+                <div class="field">
+                            <label>MY STORY</label>
+                            <p>{{ . }}</p>
+                        </div>
+                {{ end }}
+                <img src="/images/cover_pinterest.png"  width="100%" alt="DrawBuildPlay" title="DrawBuildPlay" nopin="nopin">
             </figure>
         </section>
     </section>
 
     <section class="split contact">
-
          <section>
             <div class="field">
                 <label>Follow DrawBuildPlay on Pinterest</label>
                 <a data-pin-do="embedBoard" data-pin-board-width="600" data-pin-scale-height="300" data-pin-scale-width="80" href="https://www.pinterest.com/drawbuildplay/drawbuildplay-blog/"></a>
             </div>
         </section>
-
-
-        {{ with $data.contactinfo.bio }}
-        <section>
-            <div class="field">
-                <label>MY STORY</label>
-                <p>{{ . }}</p>
-            </div>
-        </section>
-        {{ end }}
-
-
     </section>
 </footer>

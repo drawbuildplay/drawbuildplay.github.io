@@ -16,7 +16,7 @@ pin_description = "DIY Custom Drawer Organizer for your kitchen utensils and sil
 pin_image = "pins/DIY Custom Drawer Organizers-1.png"
 
 +++
-This DIY Drawer Organizer was a spur of the moment DIY I came up with.  We used to have a store bought wooden organizer a while ago which looked nice, but it wasn't sized appropriately for the drawer, and the slats had gaps below them where the silverware would sneak under (this was really annoying).  Then recently, my wife went out and replaced it with a new organizer, but it was even smaller and just didn't look good.
+This DIY Drawer Organizer was a spur of the moment DIY I came up with.  We used to have a store bought wooden organizer a while ago which looked nice, but it wasn't sized appropriately for the drawer, and the slats had gaps below them where the silverware would sneak under (this was really annoying).  Then recently, I went out and replaced it with a new organizer, but it was even smaller and just didn't look good.
 
 So, this morning I decided to go out to my local hardware store, and bought 4 pieces of poplar wood (1/4" x 3" x 3ft) for just $2.56 each (total $10.24 + tax).  You might want to buy a few extra pieces as spare in case you cut one too short by mistake, or decide to add more compartments.
 

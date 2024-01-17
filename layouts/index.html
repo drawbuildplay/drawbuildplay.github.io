@@ -27,17 +27,11 @@
 				</div>
 			</div>
 			{{ partial "scripts/index" . }}
+			{{ partial "footer/index" . }}
+			{{ partial "copyright" . }}
 		</div>
+
+		{{ partial "scripts/index" . }}
 	</body>
 </html>
 
-
-{{ partial "htmlhead" . }}
-<body lang='{{ .Site.Language.Lang | default "en-us" }}' class="is-loading">
-
-   
-
-
-
-</body>
-</html>

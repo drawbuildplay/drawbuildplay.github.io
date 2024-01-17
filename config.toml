@@ -20,7 +20,7 @@ pattern = "2006"
 # set below parameter to define a favicon
 [params]
     favicon = "/favicon.png"
-    author = "Amit Gandhi"
+    author = "DrawBuildPlay"
 	site_description = "Useful tips and tricks for designing and building things yourself"
 	description = "Useful tips and tricks for designing and building things yourself"
 
