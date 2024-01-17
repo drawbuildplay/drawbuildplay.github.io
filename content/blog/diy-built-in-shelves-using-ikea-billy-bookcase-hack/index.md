@@ -1,8 +1,8 @@
 +++
 categories = ["home-decor"]
 date = "2019-03-21T00:00:00-04:00"
-description = "Enhance your Farmhouse Office with our easy to do DIY book shelf, using the IKEA Billy book shelf hack.  These white shelves will enhance any room and highlight your favorite home decor elements, by organizing them giving you a styled bookcase.  Add these home decor shelves to your DIY book case ideas and continue reading more to learn how to build these book cases yourself."
-keywords = ["shelves", "decor", "office", "ikea", "organizer", "farmhouse"]
+description = "Discover how to transform your home office with our DIY guide to creating stylish built-in bookshelves and a desk using the IKEA Billy bookcase hack. Ideal for adding functionality and chic design to any space."
+keywords = ["DIY built-in shelves, IKEA Billy bookcase hack, home office design, desk with built-in bookshelves, built-in bookcase with desk, home decor, modern workspace, space optimization."]
 title = "DIY Built-In Shelves using Ikea Billy Bookcase Hack"
 
 [[pins]]
@@ -28,68 +28,130 @@ pin_description = "Easy DIY Built In Bookcases using the IKEA Billy Bookcase Hac
 pin_image = "pins/easy_bookcase_diy.png"
 
 +++
-This is probably my favorite DIY to date at home.  I love how gorgeous these shelves turned out, and it only cost me a few hundred dollars.
 
-There are a bunch of guides on Pinterest covering how to do this, but I really wanted to share ours.  These shelves have seriously brightened up the office.  I work remotely from home, and am constantly in Video Conferences.  Having this IKEA shelf idea as a backdrop for those meetings has been a constant point of discussion, as my coworkers love how clean it looks.  Not to mention, it adds a bunch of character to the calls instead of a plain wall.
 
-Our library is also the first room visitors see when they enter our home through the front door.  It helps make a beautiful statement entry as their eyes are immediately drawn to the shelves and the various decor items sitting in each space.
 
-We opted to go with a farmhouse look once the shelves were up.  This required finding good deals at a variety of different stores - many of the items from places like At Home, Marshalls/Ross, and Hobby Lobby.
+Hey there, DIY enthusiasts and style mavens! Are you ready to dive into a super cool project that'll totally up your home office game? I'm about to spill the beans on my latest obsession: creating an uber-chic and totally functional workspace by blending a sleek desk with some seriously stylish built-in bookshelves – all using the IKEA Billy bookcase hack! Trust me, it's easier than it sounds and way more fun.
 
-For the desk, we purchased this beautiful picnic table from World Market.  It even has a hole for the umbrella which can be used to drop the computer wires down.  However, I prefer a clean look (no wires), and I mainly use a laptop, so I instead thread the power cable between the gaps in the wood.
+I'm all about finding savvy ways to create spaces that are not just Insta-worthy, but also super practical for our busy lives. Whether you're juggling Zoom calls, hustling on your start-up, or just want a pretty backdrop for your daily TikToks (guilty!), this project is going to be a game-changer. So, grab your lattes and let's transform your workspace from 'meh' to 'wow'! Because let's face it, a plain wall just doesn't cut it anymore. Let's do this!
 
-The globe light was also purchased from World Market.  It truly helped round out the library.
+## Planning and Design
+Alright, let's get into the nitty-gritty of turning our vision into reality! Planning is key, and it's all about finding the perfect spot in your home where functionality meets flair. Whether it's a cozy corner in your bedroom or that underutilized space in your living room, choosing the right spot is essential. For me, it was all about creating a statement piece in my home office that could double as a stunning background for my virtual meetups.
 
-So, back to the shelving.  How did I build these?
+Once you’ve picked your spot, it's time to talk design. The beauty of the IKEA Billy bookcase hack is its versatility – it's like a blank canvas waiting for your personal touch. Think about how you work and what you need within arm's reach. Need lots of storage for your books and decor? We’ve got shelves for that. A spacious desk area for your laptop and those cute stationery items you can’t live without? Absolutely.
+
+Now, let's sketch it out! I’m talking about some old-school paper and pencil action. Measure your space, and plan how your bookcases will flank your desk area. Remember, this is your creative masterpiece – it should reflect your style and needs. Are we going for a minimalist vibe or a more eclectic look? This is your chance to infuse your personality into every shelf and nook.
+
+Pro tip: Consider the lighting in your chosen spot. Good lighting is not just vital for work but also makes your Instagram stories pop!
+
+In this phase, feel free to play around with ideas, and don't be afraid to get a little wild with your designs. After all, the best part about DIY is making something uniquely you!
+
+## Materials and Tools Needed
+Okay, DIY squad, it's shopping time (my favorite part)! To kickstart our built-in bookshelf and desk project, we need to gather all our materials and tools. Here's a rundown of what you'll need to create that chic, functional workspace:
+
+#### Materials:
+
+1. **IKEA Billy Bookcases**: The star of our project. Depending on your space, you might need two or more.
+2. **Desk Surface**: You can choose a pre-made desk top or get creative with a custom piece – think reclaimed wood for a rustic touch!
+3. **Primer and Paint**: We want our shelves and desk to scream 'chic,' so pick a color that vibes with your room. I’m all about that crisp, high-gloss white.
+4. **Caulk and Sandpaper**: For those professional, seamless finishes.
+5. **Additional Shelving or Wood Panels**: Depending on your design, you might want some extra shelves or panels for customization.
+
+#### Tools:
+
+1. **Measuring Tape and Level**: Precision is key, lovelies!
+2. **Drill and Screws**: For securing those bookcases and creating your desk setup.
+3. **Saw**: If you're cutting any wood or making adjustments.
+4. **Paintbrushes and Rollers**: For that flawless paint job.
+5. **Safety Gear**: Don't forget your goggles and gloves. Safety first!
+
+Pro tip: Always double-check your measurements before cutting or drilling. It's all about that perfect fit!
+
+Gather these essentials, and you'll be all set to start building your dream workspace. Remember, the goal is to create a space that not only serves your needs but also reflects your personal style. So, feel free to get a little creative with your choices!
+
+## Step-by-Step Building Process
+Get ready to roll up your sleeves, because it's time to start building! Here’s a step-by-step guide to create your stunning built-in bookshelves with an integrated desk. Remember, it's all about adding your personal flair to it!
 
 Well, this is what the library looked like originally.
 
-{{<imgproc "images/library_before.png" Resize "1200x" >}}Library (Before){{</imgproc>}}
+{{<imgproc "images/library_before.png" Resize "600x" >}}Home Office Before Shelving Added{{</imgproc>}}
 
-As you can see, the room was fairly bland before.
+1. **Assemble the IKEA Billy Bookcases**:
+Start by assembling your Billy bookcases according to IKEA’s instructions. It’s super easy – like giant Lego for adults!
 
-I started by removing the base boards and crown moldings that were against the back wall.  I also removed them from each side, as they will need to be trimmed down later to give that built in look.
+2. **Preparing the Base**:
+If you have large baseboards like I did, you might need to elevate the bookcases. I built a simple base frame with 1x3 wood and topped it with plywood. Ensure it's level because nobody likes a wonky shelf!
 
-Once the trim was removed, also remove the outlet covers that will be in the way of the shelving.  I had one power outlet on the back wall, and an ethernet outlet on the side which would be covered up by the shelves.  (Note for later, when you put the shelves up over these locations, you will want to jigsaw cut holes so that you don't lose access to these outlets.)
+{{<imgproc "images/shelving_base.png" Resize "600x" >}}Home Office Shelving Base{{</imgproc>}}
 
-Next, you may need a base for the shelves to sit on.  This step may be optional for you.   I have really large 12" baseboards.  The Billy Bookcases have a groove already cutout to go around baseboards, but that was a lot smaller than mine.  Hence the need for me to have the shelves sit a little higher so that it could when the base boards are remounted in front, it wont cover up the actual shelves.
+3. **Place and Secure the Bookcases**:
+Lift each bookcase onto the base. Space them evenly and once you're happy with the arrangement, use the provided IKEA mounts to secure them to the wall studs. Stability is key!
 
-{{<imgproc "images/shelving_base.png" Resize "1200x" >}}Shelving Base{{</imgproc>}}
+{{<imgproc "images/ikea_bookshelf_hack.png" Resize "600x" >}}Ikea Billy Bookshelf Hack{{</imgproc>}}
 
-I built the base framing using 1x3 wood.  I then wrapped the outside of the base with primed wood as this part will be exposed.  I used some cheap plywood on the top of the base for the shelves to sit on.  Make sure this is level otherwise you will have shelves that will want to rock, or will be slanted.  Also, in retrospect, i wouldn't have used such flimsy plywood here as I actually ended up with some minor dips in places that i had to shim later.
 
-{{<imgproc "images/ikea_bookshelf_hack.png" Resize "1200x" >}}Ikea Billy Bookshelf Hack{{</imgproc>}}
+4. **Adding the Desk:**
+For the desk, fit your chosen surface between two bookcases. If you're using a pre-made top, secure it with brackets. If it's custom, you might need to get creative with your attachments. Ensure it’s sturdy – we don’t want any coffee spills!  I chose to keep my desk seperate and use the shelves as a backdrop.
 
-Once your base is in, build your Billy's per IKEA's instructions.  As each shelf is built, lift it up and place it on your base.  Don't mount it to the wall yet, as you will likely need to adjust the spacing between each shelf to make them evenly spaced once all of them are up.
+5. **Customization and Trim Work**:
+Now, customize! Fill any gaps between the shelves or between the shelves and the wall. Add trim or molding for a built-in, seamless look. This is where your bookshelf goes from IKEA to high-end custom!
 
-Once all of your IKEA Billy Bookcase shelves are up and equally distributed, use the IKEA mounts provided to secure them to the studs behind the wall. Also try to keep the distance between each shelf a standard width as it will be covered by trim (so something like 2.5" is good, but go with what is available and looks good to you).
+{{<imgproc "images/moldings.png" Resize "600x" >}}DIY Book Shelf Molding and Trim{{</imgproc>}}
 
-{{<imgproc "images/moldings.png" Resize "1200x" >}}Book Shelf Molding / Trim{{</imgproc>}}
+6. **Sanding and Priming**:
+IKEA furniture finishes can be tricky to paint. So, sand down the surfaces lightly and apply a good primer. This step makes a huge difference.
 
-At this point, you can also put the base molding back on against your shelf base.
+7. **Painting**:
+Once primed, paint your bookshelves and desk in the color of your choice. I went for a glossy white for a fresh, modern look.
 
-If you have space between the top of your shelves and the ceiling, then you may need to put another mini shelf up there, or add some framing and cover it with a sheet of wood similar to what you did at the base.  Make sure it is sturdy as you will be nailing the crown molding into this sheet also.
+8. **Final Touches**:
+Reattach any baseboards, add decorative elements, and maybe some cute lighting. This is where your personality shines!
 
-Once the shelves are ready, trim is in place, and moldings are back in, then its on to the finishing touches.
+And voilà! You now have a stunning, functional workspace that’s sure to be the envy of all your Zoom buddies.
 
-IKEA furniture tends to come with a coating which doesn't play all that friendly with paint.  You will need to sand every shelf, and every corner down to create a slightly rougher surface for the paint to grip to.  Then use the BIN primer to prime each surface.
 
-Caulking also goes a long way in giving these shelves a professional built in appearance.  Caulk each shelf , the holes on the sides, and any gaps you see.  You may also have a small gap between the side walls and the trim.  If the gap is too big, Caulk will not hold.  You can get rubber filler tubes from your local hardware store that you can squeeze into those gaps, and then caulk over that.
+## Finishing Touches and Decoration
+Now that the major construction work is done, it's time to bring in some personality and style – my absolute favorite part! Here’s how you can add those finishing touches and decorations to make your built-in bookshelves and desk not just a piece of furniture, but a reflection of you.
 
-Once all the gaps have been caulked, surfaces primed, then use your favorite color (i went with a high gloss white trim paint) and paint everything.
+1. **Sanding and Priming (Again)**:
+I know, I know, it seems like we just did this, but trust me, a second round of light sanding and priming can really make your paint job last longer and look more professional.
 
-Also, don't forget to put the side trim back on.  At this point, measure how much you need to cut it, and cut with a Mitre Saw so that you can reconnect it to the back molding you already put back in place.  Again, if you accidentally cut a little too much, then either just fill that space with Caulk, or if you cut too much like I did, then cut another sliver from the extra molding cut, and glue it in place and caulk.  Yes, Caulk is magic and will hide all of your mistakes.
+2. **Painting – Make It Pop**:
+Choose a color that complements your room. I chose a high-gloss white for a clean, modern look, but feel free to get creative! Maybe a pop of color or a soothing pastel?
 
-Finally, once your new book shelf is dry, go decorate.  Family pictures, books, ornaments.  Anything you put here is going to look great.  Make it personal.  Show off what makes you, you!
+3. **Caulking for a Seamless Look**:
+Caulk is your best friend for achieving that built-in, seamless look. Fill in any gaps between the shelves, the walls, and the trim. This step truly elevates the whole project.
+
+4. **Adding Your Personal Touch**:
+Now for the really fun part – decorating! Arrange your favorite books, add some chic decorative items, maybe a few plants for a fresh vibe. Remember, this space should inspire you, so fill it with things that spark joy.
+
+5. **Setting Up Your Desk**:
+Your desk isn’t just for work; it's a part of your home. Style it with functional yet aesthetic items – a stylish lamp, a cute mug for your pens, and don’t forget a comfortable chair that complements the whole look.
+
+6. **Lighting**:
+Good lighting is crucial. Add a desk lamp for task lighting and maybe some LED strips on the shelves for an extra cozy ambiance.
+
+7. **Final Look**:
+Step back and admire your work. You’ve transformed a simple bookshelf into a stunning, functional workspace that’s uniquely yours. Snap some pics, share your creation with the world, and bask in the glory of your DIY skills!
+
+## Final Reveal and Benefits
+Drumroll, please! It's time for the big reveal. After all the measuring, cutting, painting, and decorating, your DIY built-in bookshelves and desk are ready to shine. But it's more than just a visual transformation; let's talk about the incredible benefits of this project.
+
+1. **Aesthetic Appeal**:
+Firstly, let's appreciate the sheer beauty of what you've created. The bookshelves and desk combo isn't just furniture; it's a statement piece that elevates the entire look of your home office. It’s chic, it’s modern, and it totally reflects your personal style.
+
+2. **Improved Functionality**:
+This setup isn't just about looks; it's super functional too. The ample shelving provides plenty of space for all your books, work materials, and decorative items, while the desk offers a comfortable and spacious area for you to work, create, and innovate.
+
+3. **Space Optimization**:
+Especially for those living in smaller spaces, this project is a game-changer. By combining storage and a workspace in one, you’re maximizing your space efficiency without sacrificing style or comfort.
+
+4. **Increased Productivity**:
+A well-organized, aesthetically pleasing workspace can do wonders for your productivity. It's inspiring to work in a space that you’ve personally designed and built. Plus, everything you need is within reach!
+
+5. **Personal Satisfaction**:
+Lastly, the sense of achievement you get from completing a project like this is unmatched. Every time you step into your home office, you'll be reminded of your creativity, skills, and the effort you put into making your vision a reality.
+
+So, take a moment to admire your work, snap some photos, and bask in the glory of your new, stunning home office. You’ve earned it!
 
 {{<imgproc "images/cover.jpg" Resize "1200x" >}}DIY Built-In Shelves using the IKEA Billy Bookcase Hack{{</imgproc>}}
-
-Let me know in the comments what you think, and don't forget to pin this to your Pinterest Boards.
-
-I still have a couple of things I want to do to finish off this room.
-
-First, the remaining walls need to be painted Repose Gray from Sherwin Williams.  This will really make the shelves pop against the gray.
-
-Second, the wood at the top needs something.  I am thinking of building a farmhouse wooden sign, maybe stenciled with "Office", or something along those lines.
-
-Stay tuned, and I'll update the blog when I get that done.
