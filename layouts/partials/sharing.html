@@ -54,17 +54,10 @@
     {{ range . }}
     <div class="card">
         <a href="{{ .Permalink }}">
-            {{ $imageResources := .Site.GetPage "/uploads" }}
-            {{ with .Params.images }}
-                {{ $imageName := .name }}
-                
-                {{ if not (eq .src "") }}
-                    {{ $imgToFind := strings.TrimPrefix "/uploads/" .src }}
-                    {{ $imageResource := $imageResources.Resources.GetMatch ($imgToFind) }}
-                    {{ $resized := $imageResource.Resize "x400" }}
-
-                    <img class="card-img-top" data-pin-nopin="true" data-src="{{ $resized.Permalink }}" alt="{{ $imageName }}">
-                {{ end }}
+            {{ with .Resources.GetMatch "images/cover.*" }}
+                {{ with .Resize "1000x" }}
+                    <img class="card-img-top" src="{{ .RelPermalink }}" alt="{{ .Name }}">
+                {{ end }} 
             {{ end }}
         </a>  
         <div class="card-body">

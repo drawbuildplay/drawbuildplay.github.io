@@ -40,15 +40,8 @@
 	    <meta property="og:site_name" content="{{ .Site.Title }}">
 	    
 
-		{{ $imageResources := .Site.GetPage "/uploads" }}
-        {{ with .Params.images }}
-            {{ $imageName := .name }}
-            {{ $imgToFind := strings.TrimPrefix "/uploads/" .src }}
-            {{ $imageResource := $imageResources.Resources.GetMatch (strings.TrimPrefix "/uploads/" .src ) }}
-            {{ $cover := $imageResource.Resize "1200x" }} 
-	    <meta property="og:image" content="{{ $cover.Permalink }}">
-	    {{ end }}
-
+		
+	    <meta property="og:image" content="{{ .Permalink }}"> 
 
 
 	    {{ range .Params.categories }}

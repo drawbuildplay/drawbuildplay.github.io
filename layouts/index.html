@@ -1,42 +1,33 @@
 {{ partial "htmlhead" . }}
 	<body lang='{{ .Site.Language.Lang | default "en-us" }}' class="is-loading">
-		
 		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+		<div id="wrapper" class="fade-in">
+			{{ partial "intro" . }}
+			{{ partial "nav" . }}
 
-				{{ partial "intro" . }}
-				{{ partial "nav" . }}
+			<!-- Main -->
+			<div id="main">
+				<div class="card-columns relatedArticles">
+					{{ range .Site.RegularPages }}
+					<div class="card">
+						<a href="{{ .Permalink }}">
 
-				 <!-- Main -->
-				 <div id="main">
-					<div class="card-columns relatedArticles">
-						{{ range .Site.RegularPages }}
-						<div class="card">
-							<a href="{{ .Permalink }}">
-								{{ $imageResources := .Site.GetPage "/uploads" }}
-								{{ with .Params.images }}
-									{{ $imageName := .name }}
-									
-									{{ if not (eq .src "") }}
-										{{ $imgToFind := strings.TrimPrefix "/uploads/" .src }}
-										{{ $imageResource := $imageResources.Resources.GetMatch ($imgToFind) }}
-										{{ $resized := $imageResource.Resize "x400" }}
-					
-										<img class="card-img-top" data-pin-nopin="true" data-src="{{ $resized.Permalink }}" alt="{{ $imageName }}">
-									{{ end }}
-								{{ end }}
-							</a>  
-							<div class="card-body">
-								<h5 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h5>
-							</div>
+							{{ with .Resources.GetMatch "images/cover.*" }}
+								{{ with .Resize "1000x" }}
+									<img class="card-img-top" src="{{ .RelPermalink }}" alt="{{ .Name }}">
+								{{ end }} 
+							{{ end }}
+
+						</a>  
+						<div class="card-body">
+							<h5 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h5>
 						</div>
-						{{ end }}
 					</div>
+					{{ end }}
 				</div>
-
-			{{ template "_internal/google_analytics.html" . }}
+			</div>
 			{{ partial "scripts/index" . }}
-
+		</div>
 	</body>
 </html>
 

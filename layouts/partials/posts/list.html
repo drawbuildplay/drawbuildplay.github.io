@@ -9,15 +9,12 @@
 
         <a href="{{ .Permalink }}" class="image fit">
 
-            {{ $imageResources := .Site.GetPage "/uploads" }}
-            {{ with .Params.images }}
-                {{ $imageName := .name }}
-                {{ $imgToFind := strings.TrimPrefix "/uploads/" .src }}
-                {{ $imageResource := $imageResources.Resources.GetMatch (strings.TrimPrefix "/uploads/" .src ) }}
-                {{ $resized := $imageResource.Fill "600x400" }}
-
-                <img src="{{ $resized.Permalink }}" alt="{{ $imageName }}" data-pin-nopin="true">
+            {{ with .Resources.GetMatch "images/cover.*" }}
+                {{ with .Resize "1000x" }}
+                <img src="{{ .RelPermalink }}" alt="{{ .Name }}" data-pin-nopin="true">
+                {{ end }} 
             {{ end }}
+            
 
         </a>    
 

@@ -1,24 +1,19 @@
-{{ $imageResources := .Site.GetPage "/uploads" }}
-{{ $original := $imageResources.Resources.GetMatch (strings.TrimPrefix "/uploads/" (.Get 0)) }}
-{{ $command := .Get 1 }}
-{{ $options := .Get 2 }}
-{{ if eq $command "Fit"}}
-{{ .Scratch.Set "image" ($original.Fit $options) }}
-{{ else if eq $command "Resize"}}
-{{ .Scratch.Set "image" ($original.Resize $options) }}
-{{ else if eq $command "Fill"}}
-{{ .Scratch.Set "image" ($original.Fill $options) }}
-{{ else }}
-{{ errorf "Invalid image processing command: Must be one of Fit, Fill or Resize."}}
-{{ end }}
-{{ $image := .Scratch.Get "image" }}
 <figure>
-	<img style="max-width: 100%; height: auto;" alt="{{ with .Inner }}{{ . }}{{ end }}" src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" data-pin-nopin="true">
-	<figcaption>
-	<h4>
-	{{ with .Inner }}
-	{{ . }}
-	{{ end }}
-	</h4>
-	</figcaption>
-</figure>   
+    {{ $imageSrc := .Get 0 }}
+    {{ $resizeOptions := .Get 2 }}
+    {{ $imageAlt := .Inner }}
+
+    {{ with .Page.Resources.GetMatch $imageSrc }}
+        {{ $resizedImage := .Resize $resizeOptions }}
+        <img style="max-width: 100%; height: auto;" 
+             alt="{{ $imageAlt }}" 
+             src="{{ $resizedImage.RelPermalink }}" 
+             width="{{ $resizedImage.Width }}" 
+             height="{{ $resizedImage.Height }}" 
+             data-pin-nopin="true">
+    {{ end }}
+
+    <figcaption>
+        <h4>{{ .Inner }}</h4>
+    </figcaption>
+</figure>

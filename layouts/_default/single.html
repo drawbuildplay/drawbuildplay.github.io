@@ -16,15 +16,11 @@
                                 <p>{{ .Description }}</p>
                             </header>
                             
-                            {{ $imageResources := .Site.GetPage "/uploads" }}
-                           
-                            {{ with .Params.images }}
-                                <div class="image main">
-                                    {{ $original := $imageResources.Resources.GetMatch (strings.TrimPrefix "/uploads/" (.src)) }}
-                                    {{ $cover := $original.Resize "1200x" }} 
-                                    <img alt="{{ .name }}" src="{{ $cover.RelPermalink }}" data-pin-nopin="true">
-                                </div>
-                            {{ end }}
+                            {{ with .Resources.GetMatch "images/cover.*" }}
+								{{ with .Resize "1000x" }}
+									<img class="card-img-top" src="{{ .RelPermalink }}" alt="{{ .Name }}">
+								{{ end }} 
+							{{ end }}
 
                             {{ range first 1 .Params.pins }}
                             <div class="box">
