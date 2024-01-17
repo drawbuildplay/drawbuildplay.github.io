@@ -30,6 +30,8 @@
                         {{ end }}
                         
                         {{ partial "posts/list.html" (dict "posts" $postsPaging "siteData" (index .Site.Data .Site.Language.Lang)) }}
+                       
+                        
 
                         <!-- Footer -->
                         {{ if gt $postsPaging.TotalPages 1 }}
@@ -50,7 +52,13 @@
                         </footer>
                         {{ end }}
 
+                        <section class="post">
+                            {{ .Content }}
+                        </section>
+                        
+                        
                     </div>
+
 
                     {{ partial "footer/index" . }}
                     {{ partial "copyright" . }}
