@@ -10,6 +10,7 @@
 	<head>
 		<title>{{ if eq (.Site.Title) (.Title) }}{{ .Site.Title }}{{ else }}{{ .Title }} &middot; {{ .Site.Title }}{{ end }}</title>
 		<meta name="description" content="{{ if (.Description) }}{{ .Description }}{{ else }}Useful tips and tricks for designing and building things yourself{{ end }}">
+  		{{ with .Keywords }}<meta name="keywords" content="{{ range $i, $e := . }}{{ if $i }} {{ end }}{{ $e }}{{ end }}">{{ end }}
 		<meta name="msvalidate.01" content="3E5C24AE74957914451DD85E5044D9E0" />
 		
 		<!-- Google Analytics -->
