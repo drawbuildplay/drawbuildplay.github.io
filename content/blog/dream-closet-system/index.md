@@ -9,6 +9,29 @@ title = "Avoid These 11 Silly Mistakes When Crafting Your Dream Closet System"
 pin_description = "11 Dumb Mistakes to Avoid When Designing a Custom Closet System"
 pin_image = "pins/11-dumb-mistakes.jpeg"
 
+[[pins]]
+pin_description = "Don't Ruin Your Dream Closet! Avoid These 11 Disastrous Mistake"
+pin_image = "pins/closet_errors.png"
+
+[[pins]]
+pin_description = "Revolutionize Your Wardrobe: The 11 Big No-Nos You Must Avoid!"
+pin_image = "pins/closet_makeover.png"
+
+[[pins]]
+pin_description = "Unlock the Secrets: 11 Surprising Closet Mistakes You Need to Avoid!"
+pin_image = "pins/closet_mistakes.png"
+
+[[pins]]
+pin_description = "Warning: These 11 Closet Blunders Could Destroy Your Dream Space!"
+pin_image = "pins/closet_warning.png"
+
+[[pins]]
+pin_description = "Build Your Dream Closet: Avoid These Errors!"
+pin_image = "pins/dreamcloset.png"
+
+[[pins]]
+pin_description = "Ideal Closet? Avoid These Blunders!"
+pin_image = "pins/ideal_closet.png"
 +++
 
 Designing a custom closet system is an exciting journey towards creating a space that not only complements your home but also caters to your personal storage needs. However, in the rush to transform a dream into reality, many homeowners fall prey to common pitfalls that can turn their custom closet project into a frustrating experience. From misjudging space requirements to choosing the wrong materials, these seemingly small errors can have a big impact on the functionality and aesthetics of your closet.
