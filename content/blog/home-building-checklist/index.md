@@ -18,7 +18,9 @@ pin_image = "pins/building a house.png"
 [[pins]]
 pin_description = "50 Tips and Tricks to know when building your new home. Read this building a house checklist before you start building your new home to help you get into your perfect dream home. Don't miss these critical items. #newhome #buildingguide #newconstruction #builder #dreamhome"
 pin_image = "pins/50 Tips and Tricks to know when building your new home.png"
-
+[[pins]]
+pin_description = "50 Awesome Hacks to know when building your new home. Read this building a house checklist before you start building your new home to help you get into your perfect dream home. Don't miss these critical items. #newhome #buildingguide #newconstruction #builder #dreamhome"
+pin_image = "pins/50-awesome-hacks-building-a-home.png"
 +++
 ## Choosing a Location
 
