@@ -3,6 +3,7 @@ categories = ["home-decor"]
 date = "2019-03-25T00:00:00-04:00"
 description = "Place a ladder shelf in your living room with a beautifully decorated farm house style shelf. This Farm house shelf decor incorporates elements of Hygge for warmth. Use it as a blanket ladder, or decorate it with your favorite farm house shelf decor items. A ladder in the living room compliments your TV and makes a stand out feature.  Continue reading to learn how I decorated our living room ladder shelf."
 keywords = ["farmhouse", "decor", "kitchen", "bedroom", "office"]
+title = "Farmhouse Ladder Shelf Decor"
 slug = "Farmhouse Ladder Shelf Decor"
 
 [[pins]]

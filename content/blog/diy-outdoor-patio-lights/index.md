@@ -1,28 +1,81 @@
-+++
-categories = ["home-decor", "smart-home"]
-date = "2019-04-17T00:00:00-04:00"
-description = "Installing outdoor patio lights creates a nice summer vibe to your outdoor patio. Patio Lighting sets the mood for you to enjoy your outdoor patio well after the sun goes down."
-keywords = ["garden", "smart home", "patio", "decor"]
-title = "DIY Outdoor Patio Lights"
-slug = "DIY Outdoor Patio Lights"
+---
+categories:
+  - "home-decor"
+  - "smart-home"
+date: "2019-04-17T00:00:00-04:00"
+description: "Join me in transforming your patio into a dazzling outdoor oasis. Discover trendy, practical lighting tips to create the perfect ambiance for your patio nights."
+keywords:
+  - "garden"
+  - "smart home"
+  - "patio"
+  - "decor"
+title: "Lights On Patio: How to Illuminate Your Outdoor Space like a Pro Designer"
+slug: "DIY Outdoor Patio Lights"
+pins:
+  - pin_description: "DIY Outdoor Decor for your patio.  Installing outside lights on house will level up your entertaining credentials!  Host your next outdoor party with outside lights on your house with this very easy DIY.  This simple DIY Outdoor decor can be completed in an afternoon.  Click to read more and install the outside lights this weekend! #diyoutdoordecor #outsidelightsonhouse #diy #patio #patiolighting #outdoorpartylights #outdoorpatiolighting #stringlights #patiolights #outsidelights"
+    pin_image: "pins/diy-outdoor-decor.png"
+  - pin_description: "Outdoor party lights ideas for your summer entertaining.  Whether you enjoy entertaining outdoors in the spring, summer, fall, or winter, this easy DIY outdoor party lights idea will get your party going. #outdoorparty #partylighting #patio #patiolighting #outdoorpartylights #outdoorpatiolighting #stringlights #patiolights #outdoorlights"
+    pin_image: "pins/outdoor-party-lights-ideas.png"
+  - pin_description: "Step by step how to guide on mounting your own patio lighting to help you entertain your guests on those fun summer evenings. #outdoorpatio #patio #patiolighting #outdoorpatiolighting #stringlights #patiolights"
+    pin_image: "pins/how-to-mount-patio-lights.png"
+  - pin_description: "DIY instructions on how to install outdoor patio lights on your outdoor patio or deck so that you can entertain your guests or chill out with some wine while you enjoy that summer sun. #outdoorpatio #patio #patiolighting #outdoorpatiolighting #stringlights #patiolights"
+    pin_image: "pins/how-to-install-outdoor-patio-lights.png"
+  - pin_description: "DIY outdoor patio lighting instructions for your patio or deck so that you can entertain your guests or chill out with a cold drink while you enjoy that summer sun with friends and family. #outdoorpatio #patio #patiolighting #outdoorpatiolighting #stringlights #patiolights"
+    pin_image: "pins/DIY Outdoor Patio Lighting.png"
+---
 
-[[pins]]
-pin_description = "DIY Outdoor Decor for your patio.  Installing outside lights on house will level up your entertaining credentials!  Host your next outdoor party with outside lights on your house with this very easy DIY.  This simple DIY Outdoor decor can be completed in an afternoon.  Click to read more and install the outside lights this weekend! #diyoutdoordecor #outsidelightsonhouse #diy #patio #patiolighting #outdoorpartylights #outdoorpatiolighting #stringlights #patiolights #outsidelights"
-pin_image = "pins/diy-outdoor-decor.png"
-[[pins]]
-pin_description = "Outdoor party lights ideas for your summer entertaining.  Whether you enjoy entertaining outdoors in the spring, summer, fall, or winter, this easy DIY outdoor party lights idea will get your party going. #outdoorparty #partylighting #patio #patiolighting #outdoorpartylights #outdoorpatiolighting #stringlights #patiolights #outdoorlights"
-pin_image = "pins/outdoor-party-lights-ideas.png"
-[[pins]]
-pin_description = "Step by step how to guide on mounting your own patio lighting to help you entertain your guests on those fun summer evenings. #outdoorpatio #patio #patiolighting #outdoorpatiolighting #stringlights #patiolights"
-pin_image = "pins/how-to-mount-patio-lights.png"
-[[pins]]
-pin_description = "DIY instructions on how to install outdoor patio lights on your outdoor patio or deck so that you can entertain your guests or chill out with some wine while you enjoy that summer sun. #outdoorpatio #patio #patiolighting #outdoorpatiolighting #stringlights #patiolights"
-pin_image = "pins/how-to-install-outdoor-patio-lights.png"
-[[pins]]
-pin_description = "DIY outdoor patio lighting instructions for your patio or deck so that you can entertain your guests or chill out with a cold drink while you enjoy that summer sun with friends and family. #outdoorpatio #patio #patiolighting #outdoorpatiolighting #stringlights #patiolights"
-pin_image = "pins/DIY Outdoor Patio Lighting.png"
+Hey Patio Lovers!
 
-+++
+Are you ready to elevate your patio game? Let's talk about the one game-changer in any outdoor space - lights! Lighting isn't just about seeing in the dark; it's about mood, vibe, and that Instagram-worthy aesthetic. 
+
+Here’s your ultimate guide to getting those 'lights on patio' goals!
+
+#### 1. String Lights: Your Go-To for Magical Vibes
+
+String lights are the MVPs of patio lighting. Drape them overhead, wrap them around railings, or hang them in creative patterns. They're perfect for adding a soft, dreamy glow to your evenings. 
+
+Pro tip: opt for LED string lights for longer life and better energy efficiency.
+
+{{<imgproc "images/lighting_string.png" Resize "600x" >}}Outdoor String Patio Lights{{</imgproc>}}
+
+#### 2. Fairy Lights: Little Lights, Big Impact
+
+Fairy lights are like the twinkling stars of your patio. They're subtle, delicate, and oh-so-pretty. Weave them through your patio plants or in clear jars for a whimsical touch that'll make your heart skip a beat.
+
+{{<imgproc "images/lighting_fairy.png" Resize "600x" >}}Outdoor Fairy Patio Lights{{</imgproc>}}
+
+#### 3. Lanterns: The Classic Charm
+
+Nothing says 'chill vibes' like a bunch of lanterns. Mix and match styles - from vintage to contemporary - and scatter them around your patio. They’re perfect for that soft, ambient glow that makes everything look better.
+
+{{<imgproc "images/lighting_lanterns.png" Resize "600x" >}}Outdoor Lantern Patio Lights{{</imgproc>}}
+
+
+#### 4. Solar-Powered Lights: Eco-Friendly and Effortless
+
+Sustainability is key, folks! Solar-powered lights are your best friends if you're into eco-friendly options. They charge during the day and light up your nights, saving energy and looking super sleek.
+
+{{<imgproc "images/lighting_solar.png" Resize "600x" >}}Outdoor Solar Patio Lights{{</imgproc>}}
+
+#### 5. Statement Lighting: Go Bold or Go Home
+
+For those who love a bit of drama, a statement piece like an outdoor chandelier or a bold floor lamp can totally transform your patio. It's a conversation starter and a showstopper – all in one.
+
+#### 6. Pathway Lights: Lead the Way in Style
+
+Light up your patio pathways with some cool pathway lights. They’re not just functional; they add structure and design to your outdoor space. Choose designs that complement your patio theme.
+
+#### 7. Smart Lighting: Control with a Tap
+
+Welcome to the future, where you can control your lights with your phone! Smart outdoor lights can change colors, adjust brightness, and even sync with your music. It’s the ultimate way to personalize your patio experience.
+
+
+Your patio is your outdoor sanctuary, and the right lighting can make it magical. From string lights to smart solutions, there's a whole world of options to explore. So, grab those lights, get creative, and watch your patio transform into the outdoor paradise of your dreams!
+
+Remember to share your patio transformations with me, and let's inspire each other with our fabulous lighting choices. Until next time, keep shining bright!
+
+## Here's your guide to installing your own DIY outdoor patio lights using string lights:
+
 As we gear up for the spring/summer season, I decided to add a touch of lighting to our outdoor patio/deck with some beautiful outdoor patio lights.  These patio lighting are super simple to install.
 
 One end of the lights were going to hang from the siding of the house, but I did not have anywhere to hang the other sides.  So, off to Home Depot I go, and I bought some really cheap furring wood that matches the furring wood on my deck.  These come in 8ft lengths, which is the perfect height I need. You can find them right at the back by the timber yard.
@@ -73,10 +126,3 @@ The final step is to start screwing in each bulb.  Starting from the start, plug
 
 This is the final look of the outdoor patio lighting.  It looks so cool, and I am looking forward to spending time on my outdoor patio this summer with friends and family, while drinking those Moscow Mules.
 
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=drawbuildplay-20&language=en_US&marketplace=amazon&region=US&placement=B00V2UKN0Y&asins=B00V2UKN0Y&linkId=18fe918a76dde9f6524d83c9b00a4de0&show_border=true&link_opens_in_new_window=true"></iframe>
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=drawbuildplay-20&language=en_US&marketplace=amazon&region=US&placement=B076ZM1799&asins=B076ZM1799&linkId=48b97da43ce24ce0799601af7d6923c5&show_border=true&link_opens_in_new_window=true"></iframe>
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=drawbuildplay-20&language=en_US&marketplace=amazon&region=US&placement=B000BOKN0C&asins=B000BOKN0C&linkId=9edc9455b9af1d07ce68eb86cf11abe5&show_border=true&link_opens_in_new_window=true"></iframe>
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=drawbuildplay-20&language=en_US&marketplace=amazon&region=US&placement=B07FBGJTCX&asins=B07FBGJTCX&linkId=ae47692984bb6d2ab79300aaf525f595&show_border=true&link_opens_in_new_window=true"></iframe>

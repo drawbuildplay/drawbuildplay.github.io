@@ -1,5 +1,5 @@
 +++
-title = "Explore Our Categories - Home Decor, Smart Home, Home Building, and More!"
+title = "Home Decor, Smart Home, Home Building, and More!"
 description = "Browse our diverse range of categories, from Home Decor and Smart Home to Home Building and beyond. Find inspiration, tips, and expert insights for all your home-related interests. Explore, discover, and transform your living spaces with our curated content!"
 +++
 
