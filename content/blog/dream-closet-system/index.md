@@ -4,6 +4,7 @@ keywords = ["Custom Closet Design, Closet System Mistakes, Efficient Closet Plan
 date = "2024-01-16T00:00:00-04:00"
 description = "Discover the top 11 mistakes to avoid in custom closet design with our expert guide. Learn how to balance style, functionality, and budget to create your dream closet system. Avoid common pitfalls in measurements, material choice, lighting, and more for a perfect closet makeover."
 title = "Avoid These 11 Silly Mistakes When Crafting Your Dream Closet System"
+slug = "Avoid These 11 Silly Mistakes When Crafting Your Dream Closet System"
 
 [[pins]]
 pin_description = "11 Dumb Mistakes to Avoid When Designing a Custom Closet System"

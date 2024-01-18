@@ -4,6 +4,7 @@ date = "2019-02-22T00:00:00-05:00"
 description = "Installing DIY decorative outdoor lighting around your home is simpler than you think.  DIY your outdoor landscaping idea and have outdoor lighting today in 6 simple steps for your front yard or back yard.  My home setup cost less than $500 all up, compared to professional installers who charge about $2,000 - $3,000 for a similar installation. "
 keywords = ["garden", "patio", "smart home", "decor"]
 title = "DIY Outdoor Landscape Lighting"
+slug = "DIY Outdoor Landscape Lighting"
 
 [[pins]]
 pin_description = "Curb Appeal Ideas DIY to have a gorgeous front or back yard.  Our essential curb appeal DIY guide will be the greatest landscaping idea you find and is ridiculously affordable and easy to do yourself. Enjoy the best easy curb appeal in your neighborhood with this beautiful landscape idea. #curbappeal #landscapingideas #gardenlighting #outdoorlighting #outsidelighting #landscaping  #diy #diylandscapingideas  "

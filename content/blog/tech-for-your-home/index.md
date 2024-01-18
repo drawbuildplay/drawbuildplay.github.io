@@ -4,6 +4,7 @@ date = "2019-04-03T00:00:00-04:00"
 description = "10 Awesome and Affordable Modern Gadgets for your home. A smart home gives you better convenience through automation, and more comfort with security, music, and lighting ambience.  Our collection of must have modern gadgets will get you started with your own smart home at an affordable cost. Continue reading to learn how to set up your very own smart home with the latest modern gadgets."
 keywords = ["smart home", "security", "decor"]
 title = "10 Best Smart Home Tech for your home"
+slug = "10 Best Smart Home Tech for your home"
 
 [[pins]]
 pin_description = "Modern Gadgets you need to get to build out your smart home. A smart home gives you convenience with automation, and comfort with security, music, and lighting ambience.  Our collection of must have modern gadgets will get you started with your own smart home at an affordable cost.  #moderngadgets #smarthome #smarthomegadgets #automation #homekit #google #alexa #siri #smarthomeautomation #tech #hometech #techhome #techgadgets #sonos #idevices #apple #amazon #nestcam #nest #irobot #roomba"

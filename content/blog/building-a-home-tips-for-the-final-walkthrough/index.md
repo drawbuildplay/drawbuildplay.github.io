@@ -4,6 +4,7 @@ date = "2019-04-09T00:00:00-04:00"
 description = "60 Building a Home Ideas for the Final Builder Walkthrough to help you build a dream home without the drama. A new construction home gets you your dream home, but get in front of the issues by knowing what to look for before you close on your future home with our free home buying checklist."
 keywords = ["building"]
 title = "Building a Home Tips for the Final Walkthrough"
+slug = "Building a Home Tips for the Final Walkthrough"
 
 [[pins]]
 pin_description = "Our home buying checklist is essential before closing on your new construction home so that the builder can remedy any problems before it's too late. Don't move into a new home full of issues.  Our free home buying checklist will guide you on what to check and raise with your builder so you can move into your dream home stress free.  #homebuyingchecklist #newconstructionhome #buildingahome #buildingahomeideas #homechecklist #builderissues #finalwalkthrough"

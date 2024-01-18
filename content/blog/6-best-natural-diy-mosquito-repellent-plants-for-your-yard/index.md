@@ -4,6 +4,7 @@ keywords = ["garden"]
 date = "2019-04-15T00:00:00-04:00"
 description = "As our temperatures start to go over 50 degrees F, the mosquitoes move in and destroy our spring and summer dreams outdoors.  Repel those mosquitos with a natural mosquito repellent strategy, by planting herbs and flowers that they hate, causing the mosquitoes to move on."
 title = "6 Best DIY Natural Mosquito Repellent Plants for your yard"
+slug = "6 Best DIY Natural Mosquito Repellent Plants for your yard"
 
 [[pins]]
 pin_description = "DIY Mosquito Repellent for your yard for get rid of those annoying mosquitoes. #mosquitoes #mosquitorepellent #diymosquitorepellent"

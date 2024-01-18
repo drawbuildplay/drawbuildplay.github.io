@@ -1,9 +1,10 @@
 +++
-title = "Home Decor"
+title = "The Ultimate Guide to Home Decor: Styles, Tips, and Inspirations"
+slug = "Home Decor"
 description = "Dive into our 'Home Decor' category for the latest trends, tips, and DIY ideas to transform your living space. Discover creative and affordable ways to style your home, from chic minimalism to cozy bohemian. Perfect for decor enthusiasts and interior design lovers!"
 +++
 
-# Home Decor
+# The Ultimate Guide to Home Decor
 
 Welcome to our Home Decor category, where creativity meets comfort. Discover the latest trends, expert tips, and DIY ideas to transform your living space into a haven of style and beauty.
 

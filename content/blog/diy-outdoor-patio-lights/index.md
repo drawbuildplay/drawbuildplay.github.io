@@ -4,6 +4,7 @@ date = "2019-04-17T00:00:00-04:00"
 description = "Installing outdoor patio lights creates a nice summer vibe to your outdoor patio. Patio Lighting sets the mood for you to enjoy your outdoor patio well after the sun goes down."
 keywords = ["garden", "smart home", "patio", "decor"]
 title = "DIY Outdoor Patio Lights"
+slug = "DIY Outdoor Patio Lights"
 
 [[pins]]
 pin_description = "DIY Outdoor Decor for your patio.  Installing outside lights on house will level up your entertaining credentials!  Host your next outdoor party with outside lights on your house with this very easy DIY.  This simple DIY Outdoor decor can be completed in an afternoon.  Click to read more and install the outside lights this weekend! #diyoutdoordecor #outsidelightsonhouse #diy #patio #patiolighting #outdoorpartylights #outdoorpatiolighting #stringlights #patiolights #outsidelights"

@@ -4,6 +4,7 @@ date = "2018-12-19"
 description = "Learn our money saving hack to save money without cable, using an Apple TV, HDHomeRun, and over the air antenna. Stop spending hundreds of $$$ on cable. We started saving money back in 2015 by combining free over the air live antenna TV with Netflix.  Learn how you can do this too, with our best way to save money in your new home."
 keywords = ["smart home", "living room", "bedroom"]
 title = "Watch TV for Free without cable"
+slug = "Watch TV for Free without cable"
 
 [[pins]]
 pin_description = "One of the best ways to save money is to cut the cable bill.  The average homeowner pays over $200/month for cable tv and phone, for channels they don't even watch.  Read our easy DIY guide on how you can stop paying for cable and still watch the shows and sports you love, saving you $200 each month. #savemoney #moneysavinghacks #cutthecord #howtosavemoney"

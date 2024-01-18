@@ -4,6 +4,7 @@ date = "2019-01-04"
 description = "When building a new home, or buying a home, it is important to find your future dream home in the perfect location for you. Our free check list for your future home design - location will guide you through what you must consider when coming up with your building a home ideas.  Are you close to things you need?  What is important to you.  These questions will be answered in our free home buying checklist.  Continue reading to learn more."
 keywords = ["building", "smart home", "patio", "garden"]
 title = "Home Building Checklist - Choosing a Location"
+slug = "Home Building Checklist - Choosing a Location"
 
 [[pins]]
 pin_description = "When building a home or buying a home, it is critical you know how to pick a location for your future dream home.  Our free home checklist guides you through the most important qualities for choosing a location for your new construction home or future dream home. #futuredreamhome #buildinganewhome #futurehomedesign #newconstructionhome #homelocation #homechecklist"

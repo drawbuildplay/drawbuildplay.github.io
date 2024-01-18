@@ -4,6 +4,7 @@ date = "2019-04-12T00:00:00-04:00"
 description = "Check out our newly constructed backyard privacy fence using 6x6 wooden fence posts.  A short privacy fence not only looks great, but gives the kids a safe area to play in, and sets the stage for further DIY backyard ideas. It works great as a patio fence, or as a backyard fence, with many wood fences designs you can choose from."
 keywords = ["garden", "patio"]
 title = "Backyard Privacy Fence"
+slug = "Backyard Privacy Fence"
 
 [[pins]]
 pin_description = "Short privacy fence to give you some privacy in the backyard.  This fence not only looks good, but gives you kids a safe play area and a place for you to entertain your guests. #privacyfence #woodfences"

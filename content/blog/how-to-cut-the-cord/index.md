@@ -4,6 +4,7 @@ keywords = ["building", "smart home", "bedroom", "living room"]
 date = "2018-12-14"
 description = "Its 2019, and there are so many online services out there you may wonder what the point is still paying for cable.  Here is a step by step guide on how to stop wasting your money paying for your phone line to the cable companies. My family has not paid for a landline since 2011."
 title = "How to Cut the Cord - Stop paying for your landline"
+slug = "How to Cut the Cord - Stop paying for your landline"
 
 [[pins]]
 pin_description = "How to stop wasting money paying for your landline. Here is your how to DIY guide to cut the cord and stop paying for your phone line to the cable companies. #cutthecord #voip #googlevoice #freephone #freelandline #stoppayingforlandline #obi "

@@ -1,9 +1,10 @@
 +++
-title = "Smart Home Decor"
+title = "Smart Home Simplified: Making Technology Work for Your Home"
+slug = "smart home"
 description = "Discover the future of living with our 'Smart Home' category. Stay updated on the latest in home automation, IoT devices, and cutting-edge technology. Explore how to make your home smarter, more efficient, and truly connected. Your gateway to a modern, intelligent home!"
 +++
 
-# Smart Home
+# Smart Home Simplified: Making Technology Work for Your Home
 
 Welcome to our Smart Home category, your hub for all things connected and intelligent in the world of home automation. Discover the latest innovations, practical tips, and cutting-edge technology to make your home smarter and more efficient.
 

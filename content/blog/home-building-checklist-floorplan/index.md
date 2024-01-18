@@ -4,6 +4,7 @@ date = "2019-01-08"
 description = "Designing the ideal floor plan for your future home interior is essential. Whether you are looking at your Living Room Feng Shui, or looking for a a well planned home layout for your new construction home, your building a home ideas needs to have a great future home design floor plan.  Get our free checklist on designing your perfect floor plan for your future dream home!"
 keywords = ["building", "smart home"]
 title = "Home Building Checklist - Choosing a Floor Plan"
+slug = "Home Building Checklist - Choosing a Floor Plan"
 
 [[pins]]
 pin_description = "Consider Feng Shui for your future home interior design.  When designing the interior layout of your new construction home, designing good room Feng Shui goes a long way to ensure a natural and practical flow in your home, as well as encouraging peaceful energies. #fengshui #roomfengshui #livingroomfengshui #futurehome #buildingahome #newconstructionhome #floorplan #futurehomedesign #futurehomeinterior #openplan #dreamhome"

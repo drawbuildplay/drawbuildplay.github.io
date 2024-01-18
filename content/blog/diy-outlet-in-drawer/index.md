@@ -4,6 +4,7 @@ keywords = ["decor", "smart home", "kitchen", "bedroom", "organizer", "office"]
 date = "2019-04-02T00:00:00-04:00"
 description = "Installing a DIY Outlet in a drawer is an easy to do DIY to give you hidden outlets in your kitchen or bathroom for your hair dryer or USB devices."
 title = "DIY Outlet In Drawer"
+slug = "DIY Outlet In Drawer"
 
 [[pins]]
 pin_description = "Hair Dryer Outlet in Drawer for your bathroom drawer is a genius home hack. This DIY creates you a hidden outlet to hide your hair dryer or hair iron out of view while not in use. #outlet #hiddenoutlet #outletindrawer #bathroom #kitchen #usb #usboutlet #drawer"

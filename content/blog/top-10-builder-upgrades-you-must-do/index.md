@@ -4,6 +4,7 @@ date = "2019-04-01T00:00:00-04:00"
 description = "When building a new home, there are many builder upgrades available. Some cost more than others and your budget will likely require to choose. Read below for my top 10 builder upgrades you should do, and a few builder upgrades to avoid when building your dream home."
 keywords = ["building", "decor", "bedroom", "living room", "smart home", "garden", "patio"]
 title = "Top 10 Builder Upgrades You Should Do"
+slug = "Top 10 Builder Upgrades You Should Do"
 
 [[pins]]
 pin_description = "Check out our 10 most valuable home upgrades to make for your future home design.  When undergoing a new home build, knowing how to build a home on a budget is absolutely essential.  Our home build upgrades will help you prioritize what builder options to get so you can do your house upgrade on a budget. Don't build a new construction home without reading our essential guide first.  #homebuild #houseupgradeonabudget #newconstructionhome #newconstruction #futurehome #dreamhome #futurehomedesign"

@@ -4,6 +4,7 @@ date = "2019-03-18T00:00:00-04:00"
 description = "Whether you mow and treat your own lawn, or pay someone else to do it, it's important to follow a disciplined lawn care and lawn fertilization schedule. Read our greener grass lawn care tips below on how to get a beautiful lawn that is weed free and green this summer."
 keywords = ["garden", "patio"]
 title = "Secret DIY Tips to get a Greener Lawn"
+slug = "Secret DIY Tips to get a Greener Lawn"
 
 [[pins]]
 pin_description = "Prepare your fall garden ideas this autumn starting with creating a healthy lawn. Learn how to get greener grass by applying the right fertilizers and weed control. Get ahead of the spring and summer weeds by creating a barrier before the weeds germinate.  A healthy root system in the fall and winter will have your lawn looking greener in the spring, giving you a beautiful lawn.  Check out our free lawn fertilizer schedule. #fallgarden #lawncare #lawnfertilizerschedule #greenerlawn"

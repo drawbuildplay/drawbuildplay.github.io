@@ -4,6 +4,7 @@ keywords = ["smart home", "security"]
 date = "2019-03-27T00:00:00-04:00"
 description = "Check out our 6 best home security ideas you can DIY yourself in 2019."
 title = "DIY Home Security Ideas"
+slug = "DIY Home Security Ideas"
 
 [[pins]]
 pin_description = "6 DIY Home Security Ideas to modernize your home security with a Nest Camera, Smart Door bells, and other smart home tools. #nest #nest-camera #home-security #home-security-ideas"

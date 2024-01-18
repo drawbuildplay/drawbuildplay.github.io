@@ -4,6 +4,7 @@ date = "2019-03-23T00:00:00-04:00"
 description = "Its finally Spring, and that means it's time to get planting outside.  This DIY Herb Garden Planter Box is perfect for hanging over your Deck rails to grow your herbs, or as a DIY vegetable planter box. "
 keywords = ["garden", "patio", "decor"]
 title = "DIY Herb Garden Planter Box"
+slug = "DIY Herb Garden Planter Box"
 
 [[pins]]
 pin_description = "Garden windows are really cool and convenient.  Read our DIY guide for building your own window garden planter box, and then hang this garden window planter box outside your window for easy access to your all your favorite herbs. #planterbox #gardenwindow #window #herbs #vegetablegarden #diyvegetableplanter"

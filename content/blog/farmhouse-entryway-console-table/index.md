@@ -4,6 +4,7 @@ date = "2019-03-22T00:00:00-04:00"
 description = "This farmhouse entryway console table is the first thing you see when you enter our farmhouse home. Decorate your own hallway table in your entryway for your modern farmhouse."
 keywords = ["decor", "bedroom", "farmhouse", "entry"]
 title = "Farmhouse Entryway Console Table"
+slug = "Farmhouse Entryway Console Table"
 
 [[pins]]
 pin_description = "Rustic Farmhouse Table for your entryway or hallway.  This wooden farmhouse table is thin so it doesn't take up too much space, making it perfect for a hallway or entryway location.  The grey whitewash makes it a must have decor piece in your farmhouse home. #farmhouse #farmhousetable #rusticfarmhousetable #entryway #hallwaytable #consoledecor #decorentryway"

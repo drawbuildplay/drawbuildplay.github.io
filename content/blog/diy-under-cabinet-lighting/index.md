@@ -4,6 +4,7 @@ date = "2018-12-20"
 description = "Installing lights under kitchen cabinets gives your kitchen an ambience your friends will envy.  Install your own gorgeous DIY Under Cabinet Lighting LEDs in your kitchen for less than $30 and in just a few minutes."
 keywords = ["decor", "smart home", "kitchen", "bedroom", "office"]
 title = "DIY Under Cabinet Lighting"
+slug = "DIY Under Cabinet Lighting"
 
 
 [[pins]]
