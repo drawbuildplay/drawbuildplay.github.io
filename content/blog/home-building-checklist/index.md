@@ -2,10 +2,10 @@
 categories = ["home-building"]
 date = "2019-01-02T19:50:00-05:00"
 description = "Embark on your home-building journey with confidence using our comprehensive building a home checklist. From selecting the perfect location to choosing smart home technology, these tips and hacks will guide you through each step of building your dream home."
-keywords = ["building", "smart home", "garden", "building a home checklist"]
-title = "Building a Home Checklist: 50 Essential Tips for Your Dream Home"
-slug = "50 Awesome Hacks for Building a new home"
-aliases = ['/blog/50-awesome-hacks-for-building-a-new-home//1000']
+keywords = ["building", "smart home", "garden", "building a home checklist", "checklist"]
+title = "Checklist for Building a Home: 50 Essential Tips for Your Dream Home"
+slug = "checklist-for-building-a-home"
+aliases = ['/blog/50-awesome-hacks-for-building-a-new-home//1000', '/blog/50-awesome-hacks-for-building-a-new-home/']
 
 [[pins]]
 pin_description = "Discover 50 essential things to consider with our building a home checklist. From future home design to critical aspects of new construction, get ready for your dream home. #buildingahome #newconstruction #homechecklist"
@@ -21,7 +21,7 @@ pin_description = "Leverage these 50 awesome hacks for building your new home, f
 pin_image = "pins/50-awesome-hacks-building-a-home.png"
 +++
 
-## Building a Home Checklist: Starting Your Journey
+## Checklist for Building a Home: Starting Your Journey
 
 ### Choosing a Location
 
@@ -95,4 +95,4 @@ Enhance your new home with smart technology for added convenience and security.
 * \[ \] Over-the-Air TV Alternatives
 * \[ \] Technology Closet for Home Automation
 
-Utilize this building a home checklist to navigate each step of your construction journey and create the home of your dreams.
+Utilize this free checklist for building a home to navigate each step of your construction journey and create the home of your dreams.
