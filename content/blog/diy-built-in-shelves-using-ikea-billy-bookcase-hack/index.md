@@ -5,6 +5,7 @@ description = "Discover how to transform your home office with our DIY guide to 
 keywords = ["DIY built-in shelves, IKEA Billy bookcase hack, home office design, desk with built-in bookshelves, built-in bookcase with desk, home decor, modern workspace, space optimization."]
 title = "DIY Built-In Shelves using Ikea Billy Bookcase Hack"
 slug = "DIY Built-In Shelves using Ikea Billy Bookcase Hack"
+aliases = ['/blog/diy-built-in-shelves-using-ikea-billy-bookcase-hack//1000']
 
 [[pins]]
 pin_description = "This built in book shelf is a great DIY and easy to do with the help of IKEA Billy book shelves.  This book shelf will look great in a home office or library, or even a beautiful family room where you want to show case your home decor.  #bookshelf #bookcases #diybookcaseideas #shelveswhite #homedecorshelves #styledbookcase #bookcasemakeovers"

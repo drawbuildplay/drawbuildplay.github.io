@@ -5,6 +5,7 @@ date = "2019-04-02T00:00:00-04:00"
 description = "Discover the step-by-step guide to installing DIY drawer outlets in your kitchen or bathroom. Learn how to hide your hair dryer, USB devices, and more with this easy, transformative DIY project."
 title = "The Ultimate Guide to Installing Drawer Outlets: DIY Tips for a Clutter-Free Space"
 slug = "DIY Outlet In Drawer"
+aliases = ['/blog/diy-outlet-in-drawer//1000']
 
 [[pins]]
 pin_description = "Hair Dryer Outlet in Drawer for your bathroom drawer is a genius home hack. This DIY creates you a hidden outlet to hide your hair dryer or hair iron out of view while not in use. #outlet #hiddenoutlet #outletindrawer #bathroom #kitchen #usb #usboutlet #drawer"

@@ -5,6 +5,7 @@ description = "Embark on your home-building journey with confidence using our co
 keywords = ["building", "smart home", "garden", "building a home checklist"]
 title = "Building a Home Checklist: 50 Essential Tips for Your Dream Home"
 slug = "50 Awesome Hacks for Building a new home"
+aliases = ['/blog/50-awesome-hacks-for-building-a-new-home//1000']
 
 [[pins]]
 pin_description = "Discover 50 essential things to consider with our building a home checklist. From future home design to critical aspects of new construction, get ready for your dream home. #buildingahome #newconstruction #homechecklist"
