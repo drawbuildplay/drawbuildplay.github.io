@@ -27,13 +27,18 @@ pin_description = "DIY Under Cabinet Lighting, it is so simple to do it this way
 pin_image = "pins/under_cabinet_lighting_pin.png"
 
 +++
-One of the things we wanted to do when we built our home was to have under cabinet lighting in our kitchen.  Getting this from our builder was going to be $200 per light, and with three sections in our kitchen this would have easily cost us $600 - $1000 depending on how much we got.
+One of the things we wanted to do when we built our home was to have under cabinet lighting in our kitchen.  
 
-After researching some ideas, we decided to install wired puck lights ourselves afterwards.  I had the builder install power outlets above the cabinets, connected to a wall switch. If you do this, have them install it horizontally so that the outlet is obstructed from view from the ground by the cabinets.
+## How much does it cost to install under cabinet lighting?
+
+During construction, a home builder will typically charge about $200 per light, and with three sections in our kitchen this would have easily cost us $600 - $1000 depending on how much we got. If you install your under-cabinet lights yourself, it is significantly cheaper, and can be installed for about $50.
+
+After researching some ideas, we decided to install [wired puck lights](https://www.amazon.com/gp/product/B00LMSB3AK/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) ourselves afterwards.  I had the builder install power outlets above the cabinets, connected to a wall switch. If you do this, have them install it horizontally so that the outlet is obstructed from view from the ground by the cabinets.
 
 {{<imgproc "images/under_cabinet_lighting_outlet.png" Resize "600x" >}}Under Cabinet Lighting Outlet{{</imgproc>}}
 
 > If you can't install outlets, look around as you may already have one inside one of your cabinets to power your rangehood or microwave. Alternatively, you can install battery powered puck lights, and not worry about wiring.  I didnt want the hassle of replacing batteries and wanted to control them together easily, so went with wired.
+
 
 
 ## DIY UNDER CABINET LIGHTING INSTALLATION
