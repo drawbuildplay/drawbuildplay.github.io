@@ -11,11 +11,11 @@ Discover the art of creating a perfect home environment with DrawBuildPlay. We a
 
 ### Explore Our Categories
 
-- **Home Decor**: Unleash your creativity with the latest trends, tips, and DIY ideas in home decor. From stylish minimalism to cozy bohemian, find your unique style and make your home truly yours.
+- **[Home Improvement](/categories/home-building)**: Planning to build your dream home? Dive into our home building category for expert guidance, tips, and trends in home construction and home improvement. From design to construction, we'll help you every step of the way.
 
-- **Smart Home**: Embrace the future of living with our smart home category. Stay updated on the latest home automation, IoT devices, and technology trends. Make your home more efficient, connected, and convenient.
+- **[Home Decor](/categories/home-decor)**: Unleash your creativity with the latest trends, tips, and DIY ideas in home decor. From stylish minimalism to cozy bohemian, find your unique style and make your home truly yours.
 
-- **Home Building**: Planning to build your dream home? Dive into our home building category for expert guidance, tips, and trends in home construction. From design to construction, we'll help you every step of the way.
+- **[Smart Home](/categories/smart-home)**: Embrace the future of living with our smart home category. Stay updated on the latest home automation, IoT devices, and technology trends. Make your home more efficient, connected, and convenient.
 
 ### Join Our Community
 
