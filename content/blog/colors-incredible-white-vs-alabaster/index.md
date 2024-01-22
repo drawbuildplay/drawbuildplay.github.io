@@ -6,6 +6,11 @@ date: "2024-01-22T00:00:00-04:00"
 description: "Explore the ultimate showdown between Incredible White and Alabaster paint colors. Discover their characteristics, best uses, and find the perfect white for your home decor. It's time to decide which shade wins in the battle of elegance and versatility."
 title: "The Ultimate Showdown: Incredible White vs Alabaster - Which Wins?"
 slug: "Paint Colors Incredible White vs Alabaster"
+
+pins:
+  - pin_description: "Explore the ultimate showdown between Incredible White and Alabaster paint colors. Discover their characteristics, best uses, and find the perfect white for your home decor. It's time to decide which shade wins in the battle of elegance and versatility."
+    pin_image: "pins/alabaster.png"
+
 ---
 
 

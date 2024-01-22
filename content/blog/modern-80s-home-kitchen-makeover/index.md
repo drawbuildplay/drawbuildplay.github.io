@@ -7,6 +7,9 @@ description: "Discover how to transform your 80s kitchen into a modern masterpie
 title: "Transform Your Home with a Modern 80s Kitchen Makeover"
 slug: "Transform Your Home with a Modern 80s Kitchen Makeover"
 
+pins:
+  - pin_description: "Discover how to transform your 80s kitchen into a modern masterpiece. Explore practical makeover ideas, blending nostalgia with modern aesthetics, and real-life before and after showcases."
+    pin_image: "pins/makeover.png"
 ---
 
 

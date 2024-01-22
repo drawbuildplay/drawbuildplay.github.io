@@ -6,6 +6,9 @@ date: "2024-01-22T00:00:00-04:00"
 description: "Discover the allure of lacquered brass! Explore what lacquered brass is, its applications in home decor, easy maintenance tips, and get inspired by the latest trends. Elevate your interior design with the timeless elegance of lacquered brass."
 title: "Discover the Elegance of Lacquered Brass: A Shining Beauty"
 slug: "what-is-lacquered-brass"
+pins:
+  - pin_description: "Discover the allure of lacquered brass! Explore what lacquered brass is, its applications in home decor, easy maintenance tips, and get inspired by the latest trends. Elevate your interior design with the timeless elegance of lacquered brass."
+    pin_image: "pins/brass.png"
 ---
 
 
