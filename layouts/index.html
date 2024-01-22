@@ -1,42 +1,143 @@
 {{ partial "htmlhead" . }}
-	<body lang='{{ .Site.Language.Lang | default "en-us" }}' class="is-loading">
-		<!-- Wrapper -->
-		<div id="wrapper" class="fade-in">
-			{{ partial "intro" . }}
-			{{ partial "nav" . }}
+<body lang='{{ .Site.Language.Lang | default "en-us" }}' class="is-loading">
+    <!-- Wrapper -->
+    <div id="wrapper" class="fade-in">
+        {{ partial "intro" . }}
+        {{ partial "nav" . }}
 
-			<!-- Main -->
-			<div id="main">
-				<div class="card-columns relatedArticles">
-					{{ range .Site.RegularPages }}
-					<div class="card">
-						<a href="{{ .Permalink }}">
+        <!-- Main -->
+        <div id="main">
+			<section class="post">
 
-							{{ with .Resources.GetMatch "images/cover.*" }}
-								{{ with .Resize "1000x" }}
-									<img class="card-img-top" src="{{ .RelPermalink }}" alt="{{ .Name }}">
-								{{ end }} 
-							{{ end }}
-
-						</a>  
-						<div class="card-body">
-							<h5 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h5>
-						</div>
-					</div>
-					{{ end }}
+				<div class="seo-text">
+					<h2>Welcome to Your DIY Home Decor Haven!</h2>
+					<p>
+						Discover the art of creating a perfect home environment with DrawBuildPlay. We are your ultimate source for all things related to home decor, smart home technology, and home building. Whether you’re looking to revamp your living room, make your home smarter, or embark on a home construction journey, we’ve got you covered.
+					</p>
 				</div>
 
-				<section class="post">
-					{{ .Content }}
+				<!-- Categories Section -->
+				<section class="categories">
+					<div class="category">
+						<h2><a href="/categories/home-improvement">Home Improvement</a></h2>
+						<p>
+							Planning to build your dream home? Dive into our home building category for expert guidance, tips, and trends in home construction and home improvement. From design to construction, we'll help you every step of the way.
+						</p>
+						<ul class="recent-posts">
+							{{ $homeImprovement := where .Site.RegularPages "Params.categories" "intersect" (slice "home-building")  }}
+
+							<div class="card-columns relatedArticles">
+								{{ range first 3 (sort $homeImprovement "Date" "desc" ) }}
+								<div class="card">
+									<a href="{{ .Permalink }}">
+			
+										{{ with .Resources.GetMatch "images/cover.*" }}
+											{{ with .Resize "300x300" }}
+												<img class="card-img-top" src="{{ .RelPermalink }}" alt="{{ .Name }}">
+											{{ end }} 
+										{{ end }}
+			
+									</a>  
+									<div class="card-body">
+										<h5 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h5>
+
+										<ul class="actions">
+											<li><a href="{{ .Permalink }}" class="button">READ MORE</a></li>
+										</ul>
+									</div>
+									
+								</div>
+
+								
+								{{ end }}
+							</div>
+						</ul>
+						<ul class="actions">
+							<li><a href="/categories/home-building" class="button">VIEW MORE IDEAS IN HOME IMPROVEMENT</a></li>
+						</ul>
+					</div>
+
+					<div class="category">
+						<h2><a href="/categories/home-decor">Home Decor</a></h2>
+						<p>
+							Unleash your creativity with the latest trends, tips, and DIY ideas in home decor. From stylish minimalism to cozy bohemian, find your unique style and make your home truly yours.
+						</p>
+						<ul class="recent-posts">
+							{{ $homeDecor := where .Site.RegularPages "Params.categories" "intersect" (slice "home-decor")  }}
+							<div class="card-columns relatedArticles">
+								{{ range first 3 (sort $homeDecor "Date" "desc" ) }}
+								<div class="card">
+									<a href="{{ .Permalink }}">
+			
+										{{ with .Resources.GetMatch "images/cover.*" }}
+											{{ with .Resize "300x300" }}
+												<img class="card-img-top" src="{{ .RelPermalink }}" alt="{{ .Name }}">
+											{{ end }} 
+										{{ end }}
+			
+									</a>  
+									<div class="card-body">
+										<h5 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h5>
+
+										<ul class="actions">
+											<li><a href="{{ .Permalink }}" class="button">READ MORE</a></li>
+										</ul>
+									</div>
+								</div>
+								{{ end }}
+							</div>
+						</ul>
+
+						<ul class="actions">
+							<li><a href="/categories/home-decor" class="button">VIEW MORE IDEAS IN HOME DECOR</a></li>
+						</ul>
+					</div>
+
+					<div class="category">
+						<h2><a href="/categories/smart-home">Smart Home</a></h2>
+						<p>
+							Embrace the future of living with our smart home category. Stay updated on the latest home automation, IoT devices, and technology trends. Make your home more efficient, connected, and convenient.
+						</p>
+						<ul class="recent-posts">
+							{{ $smartHome := where .Site.RegularPages "Params.categories" "intersect" (slice "smart-home")   }}
+							<div class="card-columns relatedArticles">
+								{{ range first 3 (sort $smartHome "Date" "desc" ) }}
+								<div class="card">
+									<a href="{{ .Permalink }}">
+			
+										{{ with .Resources.GetMatch "images/cover.*" }}
+											{{ with .Resize "300x300" }}
+												<img class="card-img-top" src="{{ .RelPermalink }}" alt="{{ .Name }}">
+											{{ end }} 
+										{{ end }}
+			
+									</a>  
+									<div class="card-body">
+										<h5 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h5>
+
+										<ul class="actions">
+											<li><a href="{{ .Permalink }}" class="button">READ MORE</a></li>
+										</ul>
+									</div>
+								</div>
+								{{ end }}
+							</div>
+						</ul>
+						<ul class="actions">
+							<li><a href="/categories/smart-home" class="button">VIEW MORE IDEAS IN SMART HOME</a></li>
+						</ul>
+					</div>
 				</section>
+			</section>
 
-			</div>
-			{{ partial "scripts/index" . }}
-			{{ partial "footer/index" . }}
-			{{ partial "copyright" . }}
-		</div>
-
-		{{ partial "scripts/index" . }}
-	</body>
+            <section class="post">
+                {{ .Content }}
+            </section>
+        </div>
+        {{ partial "scripts/index" . }}
+        {{ partial "footer/index" . }}
+        {{ partial "copyright" . }}
+    </div>
+    {{ partial "scripts/index" . }}
+</body>
 </html>
-
