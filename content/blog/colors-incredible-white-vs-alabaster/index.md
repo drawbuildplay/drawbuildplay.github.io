@@ -27,9 +27,14 @@ Ladies and gentlemen, the moment you've been waiting for – the head-to-head sh
 - "Incredible White" has warm undertones that evoke a cozy atmosphere.
 - "Alabaster" leans towards cooler undertones, adding a touch of crispness.
 
+{{<imgproc "images/alabaster-dining-room.jpg" Resize "800x" >}}Alabaster in our Dining Room{{</imgproc>}} 
+
+
 **Brightness:** 
 - "Incredible White" offers a softer, muted brightness.
 - "Alabaster" provides a brighter, more striking look.
+
+{{<imgproc "images/alabaster-basement.jpg" Resize "800x" >}}Alabaster in our Basement Living Room{{</imgproc>}} 
 
 **Versatility:** 
 - "Incredible White" excels in creating a relaxed and welcoming ambiance.
@@ -39,7 +44,7 @@ Ladies and gentlemen, the moment you've been waiting for – the head-to-head sh
 - "Incredible White" is a match made in heaven for bedrooms and living rooms.
 - "Alabaster" elevates kitchens, bathrooms, and gallery walls.
 
-## Examples and Inspiration
+## Other Examples and Inspiration
 
 Need a little visual inspiration? Check out these jaw-dropping spaces showcasing "Incredible White" and "Alabaster" in all their glory! 
 
@@ -52,5 +57,7 @@ Need a little visual inspiration? Check out these jaw-dropping spaces showcasing
 So, who wins this epic showdown between "Incredible White" and "Alabaster"? The truth is, it depends on your personal style and the vibe you want to create in your space. Both paint colors have their unique charm and can work wonders in the right setting.
 
 Whether you opt for the warm and cozy embrace of "Incredible White" or the timeless elegance of "Alabaster," the most important thing is to choose the one that makes your heart sing. After all, it's your space, and your design journey should be nothing short of incredible! 🌟🏡💖
+
+For us, Alabaster won hands down and has become our favorite go to color throughout our home when it calls for "white"!
 
 Happy painting and decorating, my lovely friends! 😊✨
