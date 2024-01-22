@@ -10,7 +10,7 @@
         <a href="{{ .Permalink }}" class="image fit">
 
             {{ with .Resources.GetMatch "images/cover.*" }}
-                {{ with .Resize "300x" }}
+                {{ with .Resize "500x" }}
                 <img src="{{ .RelPermalink }}" alt="{{ .Name }}" data-pin-nopin="true">
                 {{ end }} 
             {{ end }}
