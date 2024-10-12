@@ -1,0 +1,32 @@
+{{ define "main" }}
+
+  <section class="section blog-single p-0">
+    <div class="container-fluid p-0">
+      <div class="row gx-0 h-100">
+        <div class="col-md-6 col-12">
+          <div class="container-fluid p-0 m-0">
+            <div class="row">
+              <div class="col-lg-6 col-12">
+                {{ with .Resources.GetMatch "images/cover.*" }}
+                  {{ with .Resize "600x" }}
+                    <amp-img src="{{ .RelPermalink }}" alt="{{ .Name }}" width="600" height="900" layout="responsive"></amp-img>
+                  {{ end }}
+                {{ end }}
+              </div>
+            
+              <div class="col-lg-6 col-12 description d-flex align-items-top justify-content-center">
+                <div class="p-5">
+                  <h1 class="fs-1 text-uppercase text-primary pb-3">{{ .Params.Title }}</h1>
+
+                  <p>{{ .Params.Description | markdownify }}</p>
+                  {{ .Content }}
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+
+
+  {{ end }}

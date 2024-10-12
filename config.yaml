@@ -13,8 +13,13 @@ outputs:
   home: 
     - "HTML"
     - "RSS"
+    - "AMP"
   page: 
     - "HTML"
+    - "AMP"
+  amp:
+    path: "amp"
+    mediaType: "text/html"
 
 minify:
    disableJS: true
