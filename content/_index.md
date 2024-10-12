@@ -17,3 +17,4 @@ Stay up-to-date with our blog, where we regularly publish articles, guides, and 
 Explore our curated collection of home decor items, smart home gadgets, and building materials. Bring the featured pieces into your own home and recreate the styles you love.
 
 Begin your journey to a more beautiful, smarter, and better-built home with DrawBuildPlay. Let's make every corner of your home a reflection of your unique personality and style.
+
