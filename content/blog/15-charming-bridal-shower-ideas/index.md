@@ -11,6 +11,8 @@ pins:
     pin_image: "images/cover.png"
   - pin_description: "15 Unique Bridal Shower Themes that are easy to organize"
     pin_image: "pins/bridalshower_ideas.png"
+  - pin_description: "15 Ideas For a Rustic Bridal Shower"
+    pin_image: "pins/rustic.png"
 ---
 
 
