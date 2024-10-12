@@ -401,6 +401,15 @@ div.description h4{
   text-transform: uppercase;
 }
 
+div.description figure{
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
+}
+div.description figure img {
+  border-radius: 15px;
+}
 
 #search-box{
  border: 0;
