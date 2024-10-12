@@ -81,8 +81,6 @@ Elevate the traditional tea party with a high tea theme. Incorporate luxurious e
 {{<imgproc "images/hightea.jpeg" Resize "600x" >}}{{</imgproc>}} 
 
 ## Farmhouse Chic
-Image Description: A rustic barn setting with burlap table runners, mason jars filled with wildflowers, and a backdrop of farm animals.
-
 For a rustic vibe, go with a farmhouse theme. Use burlap and mason jars, serve hearty foods like quiches and pies, and perhaps even have farm animals for a fun photo booth.
 
 {{<imgproc "images/farmhouse-bridal-shower.jpeg" Resize "600x" >}}{{</imgproc>}} 
@@ -93,8 +91,6 @@ Celebrate the bride's love for travel with an around-the-world bridal shower. Ea
 {{<imgproc "images/world-adventure.jpeg" Resize "600x" >}}{{</imgproc>}} 
 
 ## Hollywood Glamour
-Image Description: Red carpet entrance, with guests dressed in 1920s attire, a black tie setting with old Hollywood posters and a photo booth.
-
 Dive into Hollywood glamour with a theme that encourages guests to dress up in their finest vintage or red carpet attire. Set up a photo booth with movie props.
 
 {{<imgproc "images/hollywood-bridal-shower.jpeg" Resize "600x" >}}{{</imgproc>}} 
@@ -108,8 +104,6 @@ For a bride who loves to cook, have an interactive cooking party where everyone 
 
 
 ## Secret Garden
-Image Description: An enchanted garden setup with whimsical fairy lights, hidden nooks with cushions, and floral archways.
-
 Create a secret garden vibe with lush greenery, hidden seating areas, and floral archways. Use fairy lights for a magical touch, and perhaps serve fairy garden-inspired treats.
 
 {{<imgproc "images/secret-garden.jpeg" Resize "600x" >}}{{</imgproc>}} 
