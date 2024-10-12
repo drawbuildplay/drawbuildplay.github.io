@@ -9,6 +9,8 @@ slug: "15-charming-bridal-shower-ideas"
 pins:
   - pin_description: "15 Charming Bridal Shower Ideas That Will Wow Your Guests"
     pin_image: "images/cover.png"
+  - pin_description: "15 Unique Bridal Shower Themes that are easy to organize"
+    pin_image: "pins/bridalshower_ideas.png"
 ---
 
 

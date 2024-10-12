@@ -17,15 +17,13 @@
 
 
             <section>
-              <figure>
                   {{ $data := index .Site.Data .Site.Language.Lang }}
                   {{ with $data.contactinfo.bio }}
-                  <div class="field">
                       <p>{{ . | safeHTML }}</p>
-                  </div>
                   {{ end }}
-                  <img src="/images/cover_pinterest.png"  width="100%" alt="DrawBuildPlay" title="DrawBuildPlay" nopin="nopin">
-              </figure>
+                  <p>
+                    <img src="/images/cover_pinterest.png"  width="100%" alt="DrawBuildPlay" title="DrawBuildPlay" nopin="nopin">
+                  </p>
             </section>
 
             {{ .Content }}
