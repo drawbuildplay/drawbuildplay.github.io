@@ -63,8 +63,9 @@
       <div class="row p-0">
         <div class="col-lg-12 col-12">
             <h3 class="fs-2 text-uppercase text-primary px-4 py-3">You might also like these</h3>
-
-
+        </div>
+        <div class="col-lg-12 col-12">
+          <div class="container-fluid p-0">
               <div class="row g-4 p-2">
                 {{ with .Site.RegularPages.Related . | first 18 }}
                   {{ range . }}
@@ -88,7 +89,7 @@
                   {{ end }}
                 {{ end }}
             </div>
-                  
+          </div>    
         </div>
       </div>
     </div>
