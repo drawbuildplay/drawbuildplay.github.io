@@ -55,6 +55,3 @@ In this post, I am going to focus on installing a traditional USB outlet.  A USB
 
 The outlet I have installed above is the Leviton 15A USB Wall Outlet.  I like this one since it has 2 USB ports, supports the faster 15A charging, and comes at a great price. It also blends nicely into the decor without looking all weird and stuff like some of the other USB outlets do.
 
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=drawbuildplay-20&language=en_US&marketplace=amazon&region=US&placement=B00J3PMU4C&asins=B00J3PMU4C&linkId=c92366999e339f4178042579c7df442d&show_border=true&link_opens_in_new_window=true"></iframe>
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=drawbuildplay-20&language=en_US&marketplace=amazon&region=US&placement=B000HEHCE6&asins=B000HEHCE6&linkId=d32e3ff76fbff38310cd73e715050550&show_border=true&link_opens_in_new_window=true"></iframe>

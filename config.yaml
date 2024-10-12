@@ -1,0 +1,96 @@
+baseURL: ""
+theme: "up-business-theme"
+languageCode: "en-us"
+
+title: "DrawBuildPlay"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+outputs:
+  home: 
+    - "HTML"
+    - "RSS"
+  page: 
+    - "HTML"
+
+minify:
+   disableJS: true
+   disableHTML: true
+
+googleAnalytics: ""
+enableRobotsTXT: true
+
+summaryLength: 20
+paginate: 1000
+params:
+  title: "DrawBuildPlay"
+  description: "Useful tips and tricks for designing and building things yourself."
+  author: "DrawBuildPlay"
+  images: 
+    - "images/logo.png"
+  logo: "logo.png"
+  favicon: "/favicon.png"
+
+  favicons:
+    themeColor: "#FFFFFF"
+    backgroundColor: "#FFFFFF"
+    faviconColor: "#000000"
+
+  social:
+    pinterest: "https://www.pinterest.com/drawbuildplay/"
+    
+  posts:
+    foldername: "blog"
+    pagesize: "10"
+    featuredpost: "false"
+    
+  shareButtons:
+     size: small
+     icon: solid
+     networks:
+        - facebook
+        - twitter
+        - pinterest
+        
+  copyright: "© 2024 DrawBuildPlay, LLC"
+  postProcess: false
+
+
+menus:
+  main:
+    - name: "Home Decor"
+      url: "/categories/home-decor/"
+      weight: 1
+
+    - name: "Home Building"
+      url: "/categories/home-building/"
+      weight: 2
+
+    - name: "Smart Home"
+      url: "/categories/smart-home/"
+      weight: 3
+
+
+  footer:
+    - name: ""
+      url: "/"
+      weight: 1
+
+
+permalinks:
+  blog: "/blog/:slug/"
+
+taxonomies:
+  category: "categories"
+
+related:
+  threshold: 80
+  includeNewer: true
+  toLower: false
+  indices:
+    - name: "categories"
+      weight: 1
+

@@ -1,0 +1,55 @@
+{{ define "main" }}
+
+
+  <meta property="og:site_name" content="drawbuildplay.com" />
+  <section class="section blog-single p-0">
+    <div class="container-fluid p-0">
+      <div id="search-results" class="row"></div>
+
+      <div  class="row gx-0 h-100" >
+                            
+
+        <div class="col-md-6 col-12 description d-flex align-items-top justify-content-center">
+          <div class="p-5">
+            <h1 class="fs-1 text-uppercase text-primary pb-3">{{ .Params.Title }}</h1>
+
+            {{ .Content }}
+
+            </div>
+        </div>
+
+        <div class="col-md-6 col-12 ">
+          <div class="container-fluid p-0 m-0">
+
+            <div class="row">
+              {{ $category := .Params.slug }} <!-- assuming the page title is the category name -->
+              {{ $pages := where .Site.Pages "Params.categories" "intersect" (slice $category) | first 18 }}
+
+
+              {{ range $pages }}
+                <div class="col-12 col-lg-6 col-xl-4 mb-2">
+                  <div class="card shadow border-0 p-4 text-decoration-none  h-100" style="border-radius: 15px;" >
+                    <a class="aspect-ratio-full" href="{{ .Permalink }}" title="{{ .Title }}">
+                          {{ with .Resources.GetMatch (printf "**/%s" "{cover.*}") }}
+                              {{ with .Resize "1000x" }}
+                                  <img class="rounded-10" src="{{ .RelPermalink }}" alt="{{ .Title }}" title="{{ .Title  }}" width="{{ .Width }}" height="{{ .Height }}" />
+                              {{ end }} 
+                          {{ end }}
+                    </a>
+    
+                    <div class="card-body">
+                      <div class="fs-5 card-title fw-semibold"><a href="{{ .Permalink }}" class="text-decoration-none">{{ .Title }}</a></div>
+                    </div>
+                  </div>
+                </div>
+              {{ end }}
+            </div>
+          </div>
+        </div>  
+      </div>
+    </div>
+  </section>
+
+
+
+{{ end }}

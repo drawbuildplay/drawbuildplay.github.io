@@ -1,61 +1,103 @@
-{{ partial "htmlhead" . }}
-    <body lang='{{ .Site.Language.Lang | default "en-us" }}' class="is-loading">
+{{ define "main" }}
 
-        <!-- Wrapper -->
-            <div id="wrapper">
 
-                {{ partial "header" . }}
-                {{ partial "nav" . }}
+  <meta property="og:site_name" content="drawbuildplay.com" />
+  <section class="section blog-single p-0">
+    <div class="container-fluid p-0">
+      <div id="search-results" class="row"></div>
 
-                <!-- Main -->
-                    <div id="main">
-                        <!-- Post -->
-                        <section class="post">
-                            <header class="major">
-                                <h1>{{ .Title }}</h1>
-                                <p>{{ .Description }}</p>
-                            </header>
-                            
-                            {{ with .Resources.GetMatch "images/cover.*" }}
-								{{ with .Resize "1000x" }}
-									<img class="card-img-top" src="{{ .RelPermalink }}" alt="{{ .Name }}">
-								{{ end }} 
-							{{ end }}
+      <div  class="row gx-0 h-100" >
+        <div class="col-md-6 col-12 ">
+          <div class="container-fluid p-0 m-0">
 
-                            {{ with .Params.pins}}
-                                {{ range first 1 . }}
-                                <div class="box">
-                                    <ul class="icons alt">
-                                            <li>
-                                                <a href="https://www.pinterest.com/pin/create/button/" data-pin-do="buttonPin" data-pin-custom="true" data-pin-media="{{ .pin_image }}" data-pin-description="{{ .pin_description }}">
-                                                    <span class="button primary" id="btnShare">Pin This Now</span>
-                                                </a>
-                                            </li>
-                                    </ul>
+            <div class="row">
+              <div class="col-12">
+              {{ with .Resources.GetMatch "images/cover.*" }}
+                {{ with .Resize "1000x" }}
+                  <img class="" src="{{ .RelPermalink }}" alt="{{ .Name }}">
+                {{ end }} 
+              {{ end }}
+              </div>
+            </div>
 
-                                </div>
-                                {{ end }}
-                            {{ end}}
+            <div class="row py-5 d-md-flex d-none ">
+              {{ range .Params.pins }}
+                <div class="col-lg-4 col-md-6 col-12 ">
+                  <div class="card  border-0 p-1 text-decoration-none " style="border-radius: 15px;" >
+                    <a class="aspect-ratio-full" href="{{ .Permalink }}" title="{{ .Title }}">
+                        <img class="rounded-10" src="{{ .pin_image }}" alt="{{ .pin_description }}" title="{{ .pin_description }}" width="{{ .Width }}" height="{{ .Height }}" />
+                    </a>
+                  </div>
+                </div>
+              {{ end }}
+            </div>
+          </div>
+        </div>                      
 
-                            {{ .Content }}
+        <div class="col-md-6 col-12 description d-flex align-items-top justify-content-center">
+          <div class="p-5">
+            <h1 class="fs-1 text-uppercase text-primary pb-3">{{ .Params.Title }}</h1>
 
-                            {{ partial "postcustom" . }}
-                            
-                            {{ if not (eq .Params.disableComments true) }}
-                            {{ template "_internal/disqus.html" . }}
-                            {{ end }}
-                        </section>
-                    
+            {{ range first 1 .Params.pins }}
+                <a class="" href="https://www.pinterest.com/pin/create/button/" data-pin-do="buttonPin" data-pin-custom="true" data-pin-media="{{ .pin_image }}" data-pin-description="{{ .pin_description }}">
+                    <span class="btn btn-secondary mb-4" id="btnShare">Pin This For Later</span>
+                </a>
+            {{ end }}
 
-                    </div>
+            <p>
+              {{ .Params.Description | markdownify }}
+            </p>
 
-                    {{ partial "footer/index" . }}
-                    {{ partial "copyright" . }}
+            {{ .Content }}
 
             </div>
-            {{ template "_internal/google_analytics.html" . }}
-            {{ partial "scripts/index" . }}
+        </div>
+      </div>
+    </div>
+    
+    
 
 
-    </body>
-</html>
+
+    <div class="container-fluid p-lg-5 p-md-3 p-2">
+      <div class="row p-0">
+        <div class="col-lg-12 col-12">
+            <h2 class="fs-2 text-uppercase text-primary px-4 py-3">Get More Ideas for your Home</h2>
+
+
+              <div class="row g-4 p-2">
+                {{ with .Site.RegularPages.Related . | first 18 }}
+                  {{ range . }}
+                    <div class="col-12 col-md-4 col-lg-2">
+                      <div class="card shadow border-0 p-4 text-decoration-none h-100" style="border-radius: 15px;" >
+                        <a class="aspect-ratio-full" href="{{ .Permalink }}" title="{{ .Title }}">
+                              {{ $alt := printf "%s (%s, %s, %s) - %s" .Title .Params.category .Params.family .Params.base_spirit .Description }}
+                              {{ $title := .Title }}
+                              {{ with .Resources.GetMatch (printf "**/%s" "{cover.*}") }}
+                                  {{ with .Resize "1000x" }}
+                                      <img class="" src="{{ .RelPermalink }}" alt="{{ $alt }}" title="{{ $title }}" width="{{ .Width }}" height="{{ .Height }}" />
+                                  {{ end }} 
+                              {{ end }}
+                        </a>
+        
+                        <div class="card-body">
+                          <div class="fs-5 card-title fw-semibold"><a href="{{ .Permalink }}" class="text-decoration-none">{{ .Title }}</a></div>
+                        </div>
+                      </div>
+                    </div>
+                  {{ end }}
+                {{ end }}
+            </div>
+                  
+        </div>
+      </div>
+    </div>
+
+
+
+
+  </section>
+
+
+
+{{ end }}

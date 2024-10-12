@@ -1,0 +1,32 @@
+
+
+<footer class="shared footer bg-dark text-white-50 px-5 py-3 {{ if .Page.Params.isAppMode }}d-none d-lg-block{{ end }}">
+  <div class="container-fluid ">
+    <div class="row">
+      <div class="col-12 col-xl-6 text-center">
+        <div class="field">
+          <a data-pin-do="embedBoard" data-pin-board-width="600" data-pin-scale-height="300" data-pin-scale-width="80" href="https://www.pinterest.com/drawbuildplay/drawbuildplay-blog/"></a>
+          <p><a class="text-white text-decoration-none" href="https://www.drawbuildplay.com" alt="Home Decor DIY" title="Home Decor DIY">DrawBuildPlay | Home Decor DIY</a></p>
+        </div>
+      </div>
+
+      <div class="col-12 col-xl-6 text-center">
+        <div class="field">
+            <a data-pin-do="embedBoard" data-pin-board-width="600" data-pin-scale-height="300" data-pin-scale-width="80" href="https://www.pinterest.com/puredrinkology/cocktail-recipes/"></a>
+            <p><a class="text-white text-decoration-none" href="https://www.puredrinkology.com" target="_blank" alt="Easy Cocktail Recipes" title="Easy Cocktail Recipes">Pure Drinkology | Easy Cocktail Recipes</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        {{ with .Site.Params.copyright }}
+          <p class="small text-muted text-center">{{ . }}</p>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+
+
+</footer>
+

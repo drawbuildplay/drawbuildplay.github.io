@@ -1,5 +1,5 @@
 +++
-title = "DIY Home Decor Haven - DrawBuildPlay"
+title = "We are DrawBuildPlay - Your Home Decor DIY Haven!"
 description = "Discover the art of creating the perfect home environment with DrawBuildPlay. Explore home decor trends, smart home technology, and home building insights. Get inspired, stay informed, and connect with a community of like-minded enthusiasts. Transform your living space, one idea at a time!"
 +++
 

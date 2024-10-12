@@ -1,37 +1,23 @@
-{{ partial "htmlhead" . }}
-	<body lang='{{ .Site.Language.Lang | default "en-us" }}' class="is-loading">
+{{ define "main" }}
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+<section class="section hero py-5">
+  <div class="container">
+    <div class="row flex-column flex-xl-row-reverse">
+      <div class="col-12 col-xl-6  d-flex flex-column justify-content-center hero-image">
+        {{ partial "utilities/image-fluid" "images/lost.jpeg" }}
+      </div>
+      <div class="col-12 col-xl-6 d-flex flex-column justify-content-center">
+          <h3 class="hero-title fw-bold display-1 text-primary text-center text-xl-start pb-4">Whoops!</h3>
+          <p class="text-center text-black-61 text-xl-start">Well this is embarrassing. How did you get here?</p>
+          <p class="text-center text-black-61 text-xl-start pb-4">You seem to be lost, and hopefully you didn't have too many drinks!</p>
+        <div class="d-flex flex-column flex-xl-row">
+            <a class="btn btn-outline-primary px-4 my-1 ms-xl-4" href="/">Go Back Home<span class="ms-2">{{ partial "icons/arrow-right.html" }}</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
 
-                {{ partial "header" . }}
-                {{ partial "nav" . }}
+</section>
 
-				<!-- Main -->
-					<div id="main">
 
-						<!-- Post -->
-                        <section class="post">
-                            <header class="major">
-                                <h1>Page not found</h1>
-                                <p>Anyone seen my screwdriver?</p>
-                            </header>
-                            {{ if .Params.image }}
-                            <div class="image main"><img src="{{ .Params.image | relURL }}" alt="" /></div>
-                            {{ end }}
-                            {{ .Content }}
-
-                            
-                        </section>
-                    
-
-					</div>
-
-                    {{ partial "footer/index" . }}
-                    {{ partial "copyright" . }}
-
-            </div>
-            {{ template "_internal/google_analytics.html" . }}
-            {{ partial "scripts/index" . }}
-	</body>
-</html>
+{{ end }}

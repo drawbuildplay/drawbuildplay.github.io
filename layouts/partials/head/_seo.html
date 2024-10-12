@@ -1,0 +1,44 @@
+
+{{ partial "head/twitter_cards.html" . }}
+{{ partial "head/opengraph.html" . }}
+
+<!-- Google tag (gtag.js) -->
+{{ if not .Site.BuildDrafts }}
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-73309318-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-73309318-1');
+    </script>
+    <!-- end GA -->
+{{ end }}
+
+
+    <!-- Start of Open Graph -->
+    <meta property="og:title" content="{{ .Title }}">
+    {{ if .IsPage }}
+    <meta property="og:type" content="article">
+    <meta property="article:published_time" content="{{ .Date.Format "2006-01-02" }}">
+    {{ else }}
+    <meta property="og:type" content="website">
+    {{ end }}
+    <meta property="og:description" content="{{ .Description }}">
+    <meta property="og:url" content="{{ .Permalink }}">
+    <meta property="og:site_name" content="{{ .Site.Title }}">
+    
+
+    
+    <meta property="og:image" content="{{ .Permalink }}"> 
+
+
+    {{ range .Params.categories }}
+    <meta property="og:tags" content="{{ . }}">
+    {{ end }}
+    <!-- End of Open Graph -->
+
+<script type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/rss-parser@3.13.0/dist/rss-parser.min.js"></script>
+
