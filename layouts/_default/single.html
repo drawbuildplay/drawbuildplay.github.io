@@ -38,9 +38,11 @@
 
         <div class="col-md-6 col-12 description d-flex align-items-top justify-content-center">
           <div class="p-5">
-            <h1 itemprop="name" content="{{ .Title }}" class="fs-1 text-uppercase text-primary pb-3">{{ .Params.Title }}</h1>
+            <h1 itemprop="headline name" content="{{ .Title }}" class="fs-1 text-uppercase text-primary pb-3">{{ .Params.Title }}</h1>
 
-            <span itemprop="author" class="d-none" content="DrawBuildPlay"></span>
+            <span itemprop="author" itemscope itemtype="https://schema.org/Organization" class="small badge text-dark d-none">
+              <span itemprop="name">DrawBuildPlay</span>
+            </span>
             <span itemprop="description" class="d-none">{{ .Description }}</span>
             <span itemprop="datePublished" content={{ .Date | time.Format "2006-01-02T15:04:05-07:00" }} class="d-none"></span>
             <span itemprop="wordCount" content="{{ len (split .Content " ") }}" class="d-none"></span>
