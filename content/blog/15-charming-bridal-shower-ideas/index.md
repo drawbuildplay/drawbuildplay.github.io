@@ -96,8 +96,6 @@ Dive into Hollywood glamour with a theme that encourages guests to dress up in t
 {{<imgproc "images/hollywood-bridal-shower.jpeg" Resize "600x" >}}{{</imgproc>}} 
 
 ## Interactive Cooking Party
-Image Description: A kitchen setting where guests are cooking together, with ingredients and cooking tools spread out, and a cozy, warm ambiance.
-
 For a bride who loves to cook, have an interactive cooking party where everyone prepares dishes together. This could be a great bonding experience and result in a delicious meal.
 
 {{<imgproc "images/cooking-bridal-shower.jpeg" Resize "600x" >}}{{</imgproc>}} 

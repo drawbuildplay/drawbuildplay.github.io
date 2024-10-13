@@ -401,15 +401,23 @@ div.description h4{
   text-transform: uppercase;
 }
 
-div.description figure{
-  display: flex; 
-  justify-content: center; 
-  align-items: center; 
+div.description figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
 }
+
 div.description figure img {
+  max-width: 100%;
+  height: auto;
   border-radius: 15px;
 }
+
+div.description figcaption {
+  margin-top: 10px; /* Add spacing between the image and caption */
+}
+
 
 #search-box{
  border: 0;

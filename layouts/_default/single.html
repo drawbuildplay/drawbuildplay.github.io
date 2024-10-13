@@ -10,11 +10,11 @@
         <div class="col-md-6 col-12 ">
           <div class="container-fluid p-0 m-0">
 
-            <div class="row">
-              <div class="col-12">
+            <div class="row m-0">
+              <div class="col-12 g-0">
               {{ with .Resources.GetMatch "images/cover.*" }}
                 {{ with .Resize "1000x" }}
-                  <img class="" src="{{ .RelPermalink }}" alt="{{ .Name }}">
+                  <img class="" src="{{ .RelPermalink }}" alt="{{ .Name }}" style="width: 100%;">
                 {{ end }} 
               {{ end }}
               </div>
@@ -59,7 +59,7 @@
 
 
 
-    <div class="container-fluid p-lg-5 p-md-3 p-2">
+    <div id="relatedArticles" class="container-fluid p-lg-5 p-md-3 p-2 BLOGTOPIN_HIDE">
       <div class="row p-0">
         <div class="col-lg-12 col-12">
             <h3 class="fs-2 text-uppercase text-primary px-4 py-3">You might also like these</h3>
@@ -69,7 +69,7 @@
               <div class="row g-4 p-2">
                 {{ with .Site.RegularPages.Related . | first 18 }}
                   {{ range . }}
-                    <div class="col-12 col-md-4 col-lg-2">
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-2">
                       <div class="card shadow border-0 p-4 text-decoration-none h-100" style="border-radius: 15px;" >
                         <a class="aspect-ratio-full" href="{{ .Permalink }}" title="{{ .Title }}">
                               {{ $alt := printf "%s (%s, %s, %s) - %s" .Title .Params.category .Params.family .Params.base_spirit .Description }}
