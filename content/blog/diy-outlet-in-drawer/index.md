@@ -1,10 +1,10 @@
 +++
 categories = ["home-decor", "smart-home"]
 keywords = ["decor", "smart home", "kitchen", "bedroom", "organizer", "office"]
-date = "2019-04-02T00:00:00-04:00"
-description = "Discover the step-by-step guide to installing DIY drawer outlets in your kitchen or bathroom. Learn how to hide your hair dryer, USB devices, and more with this easy, transformative DIY project."
-title = "The Ultimate Guide to Installing Drawer Outlets: DIY Tips for a Clutter-Free Space"
-slug = "DIY Outlet In Drawer"
+date = "2024-10-12T00:00:00-04:00"
+description = "Installing a DIY Outlet in a drawer is an easy to do DIY to give you hidden outlets in your kitchen or bathroom for your hair dryer or USB devices."
+title = "DIY Outlet In Drawer"
+slug = "diy-outlet-in-drawer"
 aliases = ['/blog/diy-outlet-in-drawer//1000']
 
 [[pins]]
@@ -19,12 +19,11 @@ pin_image = "pins/outlet in drawer.png"
 
 +++
 
+A must have for any bathroom or kitchen is an outlet in the drawer.  It is an incredibly useful DIY to get the hair dryer, or curling/straightening iron off the counter tops, and hidden away in the drawer.  But still usable.  When you need it, just open the drawer, turn on the switch, and start using it.  Likewise, you can install this in your kitchen and then hide your devices in a drawer while they are charging.
 
-In today's world, where convenience meets style, having drawer outlets in your kitchen or bathroom is not just a luxury, it's a game-changer. Imagine a space free from cluttered countertops, with all your essential gadgets hidden yet accessible. This guide will walk you through the simple steps of installing drawer outlets, transforming your space into a modern, clutter-free haven.
+Since we built our house a few years ago, we had asked the builder to install an outlet inside our bathroom cabinet.  This made this DIY significantly easier for us.  If you currently do not have an outlet inside your cabinet, then find where your nearest outlet is and you will likely need to drill some holes to feed the wire to it.  Note - any wiring you install inside the cabinets or walls should be well insulated and graded so that you don't burn your house down.
 
-## Why Drawer Outlets?
-
-Drawer outlets are the perfect solution to keep your counters clear and your appliances close at hand. Whether it's for tucking away hair dryers in the bathroom or charging devices in the kitchen, these hidden outlets offer a seamless blend of functionality and aesthetics.
+For our drawer outlet, I pulled out the drawer from the cabinet, and using a 2 1/2 inch drill bit blade, I created a hole to put the extension cord through.  You will want to use a power outlet that has a fairly flat wire because it's going to need to flex every time you open/close the drawer.
 
 #### Materials You'll Need
 
@@ -32,6 +31,23 @@ Drawer outlets are the perfect solution to keep your counters clear and your app
 - A drill with a 2 1/2 inch drill bit
 - Screwdriver
 - Table saw (optional, for drawer modifications)
+
+
+Once you have the hole created, feed the power strip cable through the hole and plug it in.  Open and close the drawer a few times to make sure the wire is not getting in the way and stopping the drawer from closing.
+
+At this point you are basically done.  Easy right!
+
+If you want, you can screw the power strip onto the drawer itself to stop it moving around.  We didn't do this due to laziness.
+
+> **Safety Tip**: Never leave a hot appliance in the drawer.  Let it cool down, and make sure the power is off on both the appliance and the outlet when not in use.
+
+If your drawer nests all the way back to the wall, not leaving any space for the power strip cable to fold into, then you may need to use a table saw and shorten the sides of the drawer by an inch, then glue/nail the back of the drawer back on so that you have the space to close the drawer.  Luckily I did not need to do that with ours.
+
+If you want to get fancier with the drawer outlet, then you can buy wall outlets/grommets that can be mounted on to the drawer.  
+
+The drawer wall outlet can then be plugged into the normal one on the wall.
+
+---
 
 #### Step-by-Step Installation Guide
 
@@ -53,13 +69,6 @@ Always let hot appliances cool down before storing them and ensure both the appl
 6. **Adjusting the Drawer (If Needed)**: 
 If your drawer doesn't have enough space to accommodate the power strip cable, use a table saw to shorten the drawer sides by an inch. Reattach the back of the drawer after modifications.
 
-#### Advanced Options
+#### Make your DIY outlet even cooler
 
-For those looking to take this DIY project to the next level, consider installing custom wall outlets or grommets on the drawer. These can be directly plugged into the wall, offering a more integrated and streamlined look.
-
-> **Safety Tip**: Always prioritize safety when handling electrical installations. If you're not confident in your DIY skills, don't hesitate to consult a professional.
-
-
-Installing drawer outlets is a straightforward and impactful DIY project. It not only adds a touch of modern convenience to your home but also elevates the overall aesthetics of your space. With a little effort, you can enjoy the benefits of a clutter-free, organized, and efficient home.
-
-Remember to share your DIY experiences and photos with us, and keep an eye out for more practical and transformative home improvement tips!
+If you want to make this project even cooler, consider installing custom wall outlets or grommets on the drawer. These can be directly plugged into the wall, offering a nicer/cleaner look.
