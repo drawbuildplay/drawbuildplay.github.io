@@ -13,6 +13,9 @@ pins:
     pin_image: "pins/bridalshower_ideas.png"
   - pin_description: "15 Ideas For a Rustic Bridal Shower"
     pin_image: "pins/rustic.png"
+  - pin_description: "15 Charming Bridal Shower Ideas That Will Wow Your Guests"
+    pin_image: "pins/charming-bridal-shower-ideas.png"
+    
 ---
 
 
