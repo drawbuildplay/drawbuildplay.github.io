@@ -3,7 +3,7 @@ categories:
   - "home-decor"
 keywords: [""]
 date: "2024-10-12T00:00:00-04:00"
-description: ""
+description: "Planning a bridal shower is an exciting opportunity to celebrate the bride-to-be in a way that's both personal and memorable. Here are 15 ideas that will add a touch of charm and whimsy to the event, making it unforgettable for everyone involved."
 title: "15 Charming Bridal Shower Ideas That Will Wow Your Guests"
 slug: "15-charming-bridal-shower-ideas"
 pins:
