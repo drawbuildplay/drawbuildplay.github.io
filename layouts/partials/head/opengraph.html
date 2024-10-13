@@ -1,5 +1,6 @@
 
-  <!--  PAGE META DATA -->
+{{ if eq .Type "blog" }}
+  <!--  BLOG POST META DATA -->
   <meta property="og:type" content="article" />
   <meta property="og:site_name" content="drawbuildplay.com" />
   <meta property="og:title" content="{{ .Title }}" />
@@ -39,3 +40,21 @@
     }
   </script>
   
+  {{ else }}
+    <!-- LIST PAGE META DATA -->
+    <meta property="og:type" content="article" />
+    <meta property="og:site_name" content="drawbuildlay.com" />
+    <meta property="og:title" content="{{ .Title }}" />
+    <meta property="og:description" content="{{ .Description }}" />
+    <meta property="og:url" content="{{ .Permalink }}" />
+
+    {{ with $.Resources }}
+      {{ with .GetMatch (printf "**/%s" "{cover.*}") }}
+        {{ $cover := .Resize "1000x" }}
+        {{ with $cover }}
+          <meta property="og:image" content="{{ .Permalink }}"/>
+        {{ end }}
+      {{ end }}
+    {{ end }}
+
+{{ end }}
