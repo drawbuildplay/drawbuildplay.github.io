@@ -16,7 +16,7 @@
               <div class="col-12 g-0">
               {{ with .Resources.GetMatch "images/cover.*" }}
                 {{ with .Resize "1000x" }}
-                  <img class="" itemprop="image" src="{{ .Permalink | absURL }}" alt="{{ .Name }}" style="width: 100%;">
+                  <img class="" itemprop="image" src="{{ .Permalink | absURL }}" alt="{{ $.Title }}" title="{{ $.Title }}" style="width: 100%;" data-pin-nopin="true">
                 {{ end }} 
               {{ end }}
               </div>
@@ -49,9 +49,20 @@
             <span itemprop="keywords" content="{{ .Params.keywords }}"class="d-none"></span>
 
             {{ range first 1 .Params.pins }}
-                <a class="" href="https://www.pinterest.com/pin/create/button/" data-pin-do="buttonPin" data-pin-custom="true" data-pin-media="{{ .pin_image }}" data-pin-description="{{ .pin_description }}">
+                <a 
+                  class=""
+                  href="https://www.pinterest.com/pin/create/button/" 
+                  data-pin-url="{{ $.Page.Permalink }}"
+                  data-pin-media="{{ .pin_image }}"
+                  data-pin-description="{{ .pin_description }}"
+                  data-pin-do="buttonPin" 
+                  data-pin-custom="true" 
+                  data-pin-tall="true" 
+                  data-pin-save="true" 
+                  data-pin-height="28">
                     <span class="btn btn-secondary mb-4" id="btnShare">Pin This For Later</span>
                 </a>
+
             {{ end }}
 
             <div itemprop="articleSection">
@@ -83,7 +94,7 @@
                               {{ $title := .Title }}
                               {{ with .Resources.GetMatch (printf "**/%s" "{cover.*}") }}
                                   {{ with .Resize "1000x" }}
-                                      <img class="" src="{{ .RelPermalink }}" alt="{{ $alt }}" title="{{ $title }}" width="{{ .Width }}" height="{{ .Height }}" />
+                                      <img class="" src="{{ .RelPermalink }}" alt="{{ $alt }}" title="{{ $title }}" width="{{ .Width }}" height="{{ .Height }}" data-pin-nopin="true" />
                                   {{ end }} 
                               {{ end }}
                         </a>
