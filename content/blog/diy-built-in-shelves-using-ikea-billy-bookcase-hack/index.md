@@ -140,7 +140,7 @@ Step back and admire your work. You’ve transformed a simple bookshelf into a s
 Drumroll, please! It's time for the big reveal. After all the measuring, cutting, painting, and decorating, your DIY built-in bookshelves and desk are ready to shine. But it's more than just a visual transformation; let's talk about the incredible benefits of this project.
 
 1. **Aesthetic Appeal**:
-Firstly, let's appreciate the sheer beauty of what you've created. The bookshelves and desk combo isn't just furniture; it's a statement piece that elevates the entire look of your home office. It’s chic, it’s modern, and it totally reflects your personal style.
+Firstly, let's appreciate the sheer beauty of what you've created. The bookshelves aren't just furniture; it's a statement piece that elevates the entire look of your home office. It’s chic, it’s modern, and it totally reflects your personal style.
 
 2. **Improved Functionality**:
 This setup isn't just about looks; it's super functional too. The ample shelving provides plenty of space for all your books, work materials, and decorative items, while the desk offers a comfortable and spacious area for you to work, create, and innovate.
@@ -154,6 +154,5 @@ A well-organized, aesthetically pleasing workspace can do wonders for your produ
 5. **Personal Satisfaction**:
 Lastly, the sense of achievement you get from completing a project like this is unmatched. Every time you step into your home office, you'll be reminded of your creativity, skills, and the effort you put into making your vision a reality.
 
-So, take a moment to admire your work, snap some photos, and bask in the glory of your new, stunning home office. You’ve earned it!
 
-{{<imgproc "images/cover.jpg" Resize "1200x" >}}DIY Built-In Shelves using the IKEA Billy Bookcase Hack{{</imgproc>}}
+{{<imgproc "images/cover.png" Resize "1200x" >}}DIY Built-In Shelves using the IKEA Billy Bookcase Hack{{</imgproc>}}
