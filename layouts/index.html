@@ -36,7 +36,9 @@
 
             <div class="row">
                <!-- Loop through collection pages -->
-              {{range .Site.RegularPages }}
+              {{ $pages := where .Site.Pages "Params.categories" "ne" nil }}
+
+              {{range $pages }}
               <div class="col-12 col-md-3 mb-4 ">
                 <div class="card shadow border-0 p-4 text-decoration-none h-100" style="border-radius: 15px;">
                   <a class="aspect-ratio-full" href="{{ .Permalink }}" title="{{ .Title }}">
